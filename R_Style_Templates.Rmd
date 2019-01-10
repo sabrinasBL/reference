@@ -1,0 +1,57 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+#### Set Custom Style ####
+*Note to self: move the style templates to a standalone doc, as they can be accessed from any script as long you run the templates first
+*Note to self: standardize color order in the BIG color scheme (colors_ss) - ex, put dark color 1st, mid-weight color 2nd, lighter color 3rd. so can always reference colors_ss[2] to get a mid-weight color, but if I need a different color scheme I can easily do colors_ss <- colors_pink
+
+```{r}
+# set personal style templates
+colors_emerald_grad <- c('#14A989', '#00968C', '#008288', '#076E7D', '#255B6D', '#2F4858')
+#If you reference a color scheme in later parts of the code and want to test out multiple color schemes without rewriting the code, you can set a color scheme to another existing one
+#To make your code universal, use a constant 'my_colors' or similar generic name and define that before each chart
+colors_ss <- colors_emerald_grad
+
+#create different palletes depending on discrete vs continuous, so can refer to item #1, #2, etc, then change out source if needed
+
+#create color scheme for discrete categories
+colors_discrete <- c(colors_ss[1],"#7094BC", colors_ss[18]) # alt middle #339DE3, #7094BC, #0081C7
+
+#create color scheme for low/high scale
+#future: add multiple pairs that work together, so can always put an odd # and consecutive even # together
+colors_lowhigh <- c('#DDECE0','#14A989')
+
+colors_emerald_contrast <- c(colors_ss[1],colors_ss[12], colors_ss[6],colors_ss[14],colors_ss[16],colors_ss[18])
+
+colors_ss <- c(
+              #med-emerald 1-6
+              '#14A989', '#00968C', '#008288', '#076E7D', '#255B6D', '#2F4858',
+               #small switch palette 7-8
+               '#DDECE0','#558764',
+               #natural palette 9-11
+               '#5E9C89','#ECFDF7','#F3EADA',
+               #dotting palette 12-14
+               '#98B0A8', '#339DE3','#9FADBD',
+               #black 15
+               '#000000',
+              #twisted spot - dark blue, lavender, dark lavender. 16-18
+              '#2E38A8','#F4ECFF','#797394')
+theme_ss <- theme_minimal()+
+  #other text family options: mono, Helvetica, Futura (no), Geneva, Gill Sans Light (not free), Lucida Grande, 
+  # Menlo --has some serifs, kind of typewritery - do not use for primary
+  # Monaco
+  # Skia --good for hobbity, but smaller --need to increase font sizes
+  theme(text = element_text(family = 'Skia', size = 10, color=colors_ss[5]),
+        # base_family = 'Skia', #doesn't work
+        #  base_family = getOption("bayesplot.base_family", "Skia")) #doesn't work
+        axis.line = element_blank(), 
+        axis.ticks = element_blank(), 
+        #not needed since setting entire element to blank
+        # axis.ticks.length = unit(0, "lines"),
+        panel.border = element_blank(), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        plot.title = element_text(hjust = 0.5, face=c('bold')),
+        plot.margin = unit(rep(.5,4),"cm"))
+```

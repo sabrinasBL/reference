@@ -1,0 +1,123 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+### Create the dataframe
+##Note: create multiple entries for each time category, so can do operations like min/max by group, and get actual results for the stat="bin" geom
+##Note: the "levels" orders the categories for output (if you don't want them alpha order for ex)
+```{r}
+dat <- data.frame(
+  time = factor(c("First Breakfast","Second Breakfast","Elevenses","Luncheon","Afternoon Tea","Dinner","Supper"), levels=c("First Breakfast","Second Breakfast","Elevenses","Luncheon","Afternoon Tea","Dinner","Supper")),
+  total_bill = c(3,18.4,14.89, 17.23,5.02,9,8),
+  tip = c(1,4,0,0,2,0,0),
+  location = c("The Shire","Town","Friend's","Friend's","Town","The Shire","The Shire")
+)
+```
+
+### Explore data
+
+```{r}
+# view dataframe contents
+dat
+# view first 4 rows in dataframe
+head(dat,4)
+# view last 11 rows in dataframe
+# if you choose a # higher than row count, all rows will be displayed
+tail(dat,11)
+#view max of column
+min(dat$total_bill)
+#view min of column
+min(dat$total_bill)
+#view avg of column
+mean(dat$total_bill)
+
+#TIP: GET MIN/MAX OF ALL COLUMNS AT ONCE (INCLUDING STRINGS)
+#Reference: https://stackoverflow.com/questions/13762364/how-to-find-the-minimum-value-of-a-column-in-r
+apply(dat,2,min)
+apply(dat,2,max)
+#apply(dat,2,mean) #NOTE: can't do mean on a string
+#BUT can you (?) get the avg of mult columns at once? do a for loop through a list of variable names?
+#mean(dat$total_bill, dat$tip) # doesn't work
+#https://stackoverflow.com/questions/30941504/calculate-mean-for-multiple-columns-in-data-frame
+#this auto-detects which columns are numeric, then gets the value for each
+print("Min")
+sapply(Filter(is.numeric, dat), min)
+print("Average")
+sapply(Filter(is.numeric, dat), mean)
+print("Max")
+sapply(Filter(is.numeric, dat), max)
+##there's a problem with sapply? doesn't handle continuous columns??? 
+#source: https://stackoverflow.com/questions/5863097/selecting-only-numeric-columns-from-a-data-frame
+
+##Get Unique Values per column
+#FLAG: this is very slow for large datasets
+unique(dat$time)
+unique(dat$location)
+##Next Step: how to get unique values of every column that is non-numeric in 1 step?
+##Next Step: how to do a faster 
+```
+
+Next Step: Connect to Vertica and try doing the sapply min/max on real data
+verify that there are no data type issues
+
+Next step: Graphical Analysis QC
+ex: score distribution
+
+### Histograms
+
+#next steps: fiddle with binwidth once i have real support score
+Reference: http://www.sthda.com/english/wiki/ggplot2-histogram-plot-quick-start-guide-r-software-and-data-visualization
+```{r}
+library(ggplot2)
+
+# Basic histogram - Hobbit
+ggplot(dat, aes(x=total_bill)) + geom_histogram(binwidth=2) + theme_ss
+# Tetris histogram - hobbit
+ggplot(dat, aes(x=tip)) + geom_histogram(binwidth=2) + theme_ss
+
+# Histogram - support score ---gradient fill needs `..x..` in the aes fill to work properly, I don't know why
+ggplot(dat_csv, aes(x=support_score, fill= ..x.. )) + geom_histogram(binwidth=.005) + theme_bluelabs +
+  #set colors to emerald scheme
+  # scale_fill_gradient(low = colors_lowhigh[1], high=colors_lowhigh[2])
+  #set only blue gradient, BL colors
+  # scale_fill_gradient(low = bluelabs_colors[3], high=bluelabs_colors[5])
+  #set to red/blue scale, BL colors
+  scale_fill_gradient2(low=bluelabs_colors[7], mid="white", high=bluelabs_colors[5], midpoint=0.5)+
+  # scale_fill_gradient(low='blue', high='yellow')
+  labs(title="Support Score Distribution",
+       y = element_blank(),
+       x = element_blank())+
+  #remove legend
+  guides(fill=FALSE)+
+  #remove y-axis labels
+  theme(axis.text.y = element_blank())
+
+# Histogram - ev score
+ggplot(dat_csv2, aes(x=ev_score)) + geom_histogram(binwidth=.05) + theme_ss
+```
+
+### Density Plots --try this with different, real data
+```{r}
+# Histogram - support score ---gradient fill needs `..x..` in the aes fill to work properly, I don't know why
+ggplot(dat_csv, aes(x=support_score)) + geom_density() + theme_bluelabs +
+ labs(title="Support Score Distribution\nOR\nA Poorly Baked Loaf of Bread\n?",
+       y = element_blank(),
+       x = element_blank())+
+  guides(fill=FALSE)+
+  theme(axis.text.y = element_blank())
+
+#needed for dollar_format below
+library(scales)
+
+#density plot: hobbit
+ggplot(dat, aes(x=total_bill)) +geom_density() + theme_ss
+ggplot(dat, aes(x=tip)) +geom_density() + theme_ss +
+  annotate(geom = "text", x=.5, y=(.2), label='Takeaway:\nHobbits Are\nBad Tippers', size = 4, fontface=1.2, color=colors_ss[4])+
+   labs(title="Tipping Habits of Hobbits",
+       y = element_blank(),
+       x = element_blank())+
+  theme(axis.text.y = element_blank())+
+  theme(axis.text.x = element_text(size=12))+
+  scale_x_continuous(labels=dollar_format(prefix="€"))
+```

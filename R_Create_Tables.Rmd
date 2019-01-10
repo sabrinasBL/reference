@@ -1,0 +1,59 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+### Create Dataframe Manually
+```{r}
+# create chart of 2-way 
+dat_2way <- data.frame(
+  level = factor(c("NV","AZ","NY","HI","WV","Female","Male")),
+  Dem = c(.531,.512,.723,.825,.32,.62,.43))
+```
+
+### Modify the Dataframe by adding a column with all values set manually
+In this example, we'll add a "category" level to identify which records are states and which are sex
+```{r}
+#View dataframe before
+head(dat_2way)
+#Add column
+dat_2way$demo <- factor(c("State","State","State","State","State","Sex","Sex"), levels=c("Sex","State"))
+#View dataframe after
+head(dat_2way)
+```
+
+
+### Modify the Dataframe by adding a column with values dependent on an existing column
+```{r}
+#View dataframe before
+head(dat_2way)
+# add another level that's Rep = 1-dat_way$Dem
+dat_2way$Rep <- 1 - dat_2way$Dem
+#View dataframe after
+head(dat_2way)
+```
+
+
+
+### Import CSV
+
+```{r}
+#import data from mockaroo
+dat_csv <- read.csv('mock_data.csv')
+dat_csv2 <- read.csv('mock_data_2.csv')
+dat_csv3 <- read.csv('mock_data_3.csv')
+
+#from josh
+fte_polls <- read_csv('fivethirtyeight_polls.csv')
+```
+
+#Basic Data Checks
+For more extensive analysis, look in R_Explore_Data
+```{r}
+#check what directory you're in - file needs to be in there
+getwd()
+
+head(dat_csv)
+head(dat_csv2)
+head(dat_csv3)
+```

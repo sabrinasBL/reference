@@ -1,0 +1,226 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+
+### Instructions: Run Custom Style from R_Style_Templates
+
+### Create the dataframe
+Note to self: only need time first
+```{r}
+dat <- data.frame(
+  time = factor(c("First Breakfast","Second Breakfast","Elevenses","Luncheon","Afternoon Tea","Dinner","Supper"), levels=c("First Breakfast","Second Breakfast","Elevenses","Luncheon","Afternoon Tea","Dinner","Supper")),
+  total_bill = c(3,18.4,14.89, 17.23,5.02,9,8),
+  tip = c(1,4,0,0,2,0,0),
+  location = c("The Shire","Town","Friend's","Friend's","Town","The Shire","The Shire")
+)
+```
+
+### Explore the data
+#Very basic - more detail in R_Explore_Data: learn how to view the averages of multiple columns at once, for ex
+```{r}
+# view dataframe contents
+dat
+# view first 4 rows in dataframe
+head(dat,4)
+# view last 11 rows in dataframe
+# if you choose a # higher than row count, all rows will be displayed
+tail(dat,11)
+#view max of column
+min(dat$total_bill)
+#view min of column
+min(dat$total_bill)
+#view avg of column
+mean(dat$total_bill)
+```
+
+### Create  Basic Bar Chart
+Reference: http://www.cookbook-r.com/Graphs/Bar_and_line_graphs_(ggplot2)/
+To make this a tutorial, do a very basic chart to start, then add layers so people can view the changes
+Have two tracks: 
+1) STYLE: show what the chart looks like with default theme, then peel away the layers of NVA ink to get to Tufte, customize colors (can be a teaser - add one element and you can make the chart look like THIS or THIS), customize legend, etc
+2) CONTENT: add fill based on value, change fill to be based on category, make horizontal, make stacked bar
+
+### Create Bar Chart Outline
+```{r}
+ggplot(data=dat, aes(x=time, y=total_bill))
+
+### No data! Let's add data
+#Note: you can add another element to the chart using a +
+
+ggplot(data=dat, aes(x=time, y=total_bill)) + 
+  geom_bar(stat="identity") #, width=0.5 << for style customization
+```
+
+### Create a Bar Chart Using 
+# this is bare minimum
+```{r}
+ggplot(data=dat, aes(x=time)) + 
+  geom_bar() #uses default stat="bin" which can only pass 1 variable - it counts how many times each value in the list shows up. how to sort by alpha? https://stackoverflow.com/questions/3253641/change-the-order-of-a-discrete-x-scale
+
+
+```
+
+```{r}
+# fill = total_bill scales the fill based on total_bill values, but does not customize the color or fill direction (ex: lower #'s are darker)
+# bchart <- ggplot(data=dat, aes(x=time, y=total_bill, fill=total_bill)) + theme_ss+
+bchart <- ggplot(data=dat, aes(x=time, y=total_bill, fill=location)) + theme_ss+
+  geom_bar(stat="identity", width=0.5) +
+  # manually set color parameters by setting high and low color values
+  # If you want to control the middle value, use scale_fill_gradient2() instead
+  # scale_fill_continuous(low = '#DDECE0', high = '#14A989')+
+  # scale_fill_continuous(low = colors_lowhigh[1], high=colors_lowhigh[2])
+  # Set color based on category
+  scale_fill_manual(values=c(colors_ss[1],colors_discrete[2], colors_ss[18]))+ # alt middle #339DE3
+  # set fill color parameters using bluelabs colors
+  # scale_fill_continuous(low = colors_ss[2], high = colors_ss[5])+
+  # set the line at a variable depending on content of data (this points to the 1st row, 2nd column)
+  geom_hline(yintercept=dat[1,2], color = colors_ss[1], lwd=.1, linetype = 'dashed')+
+  # scale_fill_continuous(low = bluelabs_colors[2], high = bluelabs_colors[5])+
+  # place the line at the total_bill value of "Supper" regardless of whether Supper is the 7th item or not
+  geom_hline(yintercept=dat$total_bill[dat$time == 'Supper'], color = colors_ss[7], lwd=.9) +
+  ############################
+  # Can also do this
+  # geom_hline(yintercept=dat%>%filter(time == 'Supper')%>%.$total_bill, color = bluelabs_colors[7], lwd=.9) +
+  ############################
+  # manually set the line x-axis value
+  geom_vline(xintercept = 3.5, color = colors_ss[4] , lwd=.5, linetype = 'twodash') +
+  ############################
+  # Since layers are added on top of each other
+  # the order of the lines in your code determine
+  # which are viewable when they intersect
+  # try moving the lines around to see the difference
+  ############################
+#stylistic choice, tufte-ish: consolidate all labels in the header if possible
+  labs(title = 'Gold Spent on Hobbity Meals',
+       y = element_blank(),
+       x = element_blank()) +
+  #eliminate legend
+  # guides(fill=FALSE)+
+  # annotate adds 1 text element to the chart, placed at x/y coordinates
+  # '\n\ creates a line break
+  # set the font manually
+  annotate("text", x=dat[7,1], y=(dat[7,2] + 2), label='Supper\nBaseline', family = 'Skia', size = 4, fontface = .7,
+           color=colors_ss[1])+
+  # inherit the font from your theme (if possible)
+  annotate(geom = "text", x=4, y=(dat[4,2]+1), label='Noon-testing letters', family= theme_get()$text[["family"]], size = 4, fontface=.7, color=colors_ss[4])
+
+  # view chart
+  bchart
+```
+
+### Make the Bar Chart Horizontal
+Reference: https://ggplot2.tidyverse.org/reference/geom_bar.html#computed-variables
+#Note: this does not modify bchart itself
+
+```{r}
+bchart +
+ coord_flip() +
+ theme(legend.position = "top")
+#show that the original chart remains vertical
+bchart
+```
+
+### Move the Legend in the horizontal bar chart to a coordinate within the graph
+Reference: http://www.sthda.com/english/wiki/ggplot2-legend-easy-steps-to-change-the-position-and-the-appearance-of-a-graph-legend-in-r-software
+```{r}
+bchart +
+ coord_flip() +
+ theme(legend.position = c(0.9, 0.8))
+```
+
+### Remove the legend header in the horizontal bar chart
+
+```{r}
+bchart +
+ coord_flip() +
+ theme(legend.position = c(0.9, 0.8), legend.title =element_blank())
+```
+
+### Make a stacked bar chart: make the fill a categorial variable that is NOT the x-axis
+```{r}
+ggplot(data=dat_csv3, aes(x=state, y=turnout_score, fill=demo_sex))+
+  geom_bar(stat="identity") + theme_ss
+
+#Customize the fill colors
+ggplot(data=dat_csv3, aes(x=state, y=turnout_score, fill=demo_sex))+
+  geom_bar(stat="identity") + theme_ss +
+  scale_fill_manual(values=c(colors_emerald_contrast[1],colors_emerald_contrast[3]))
+```
+
+### Make a stacked bar chart that stretches to 100% always
+To do: fix these labels - remove the rectangle, coordinate the colors
+```{r}
+dat_pct <- data.frame(ethnicity = factor(c("White","AfAm","AAPI","Hisp")),
+  pct_dist = c(.5,.2,.1,.2))
+
+ggplot(data=dat_pct, aes(x=1, y=pct_dist, fill=pct_dist))+
+  geom_bar(stat="identity") +theme_ss+
+  geom_label(aes(label=ethnicity), size=5)
+  # geom_text(mapping = NULL, data = NULL, stat = "identity", position = "identity",inherit.aes = TRUE)
+
+# create chart of 2-way 
+dat_2way <- data.frame(
+  demo = factor(c("State","State","State","State","State","Sex","Sex"), levels=c("Sex","State")),
+  level = factor(c("NV","AZ","NY","HI","WV","Female","Male")),
+  Dem = c(.531,.512,.723,.825,.32,.62,.43))
+
+# add another level that's Rep = 1-dat_way$Dem
+dat_2way$Rep <- 1 - dat_2way$Dem
+head(dat_2way)
+
+# to save storage space, how to manufacture this (1-Dem) calculation in a stacked bar chart?
+
+ggplot(data=dat_2way, aes(x=demo,y=Dem, fill=Dem))+
+  geom_bar(stat="identity")+theme_ss+
+  geom_label(aes(label=level))+
+  scale_color_gradient2(low = bluelabs_colors[1], high = bluelabs_colors[5], midpoint = .5, mid = 'grey')
+```
+
+
+## Make a bar chart where each bar is colored differently
+fill = time (the x-axis variable)
+```{r}
+ggplot(data=dat, aes(x=time, y=total_bill, fill=time)) +
+    geom_bar(stat="identity") + theme_ss
+```
+
+
+
+### Make a scatterplot
+```{r}
+scat_plot <- ggplot(dat_csv3, aes(x=turnout_score, y=ev_score, fill=demo_sex))
+
+# add points, with default color
+scat_plot + geom_point() + theme_ss
+
+# set all dots equal to the primary color in your color scheme
+scat_plot + geom_point(color=colors_ss[1]) + theme_ss
+
+# make dots different colors based on gender
+scat_plot + geom_point(aes(colour=demo_sex)) + theme_ss + 
+  scale_colour_manual(values=colors_emerald_contrast)
+
+# split grids by sex
+scat_plot + geom_point(aes(colour=demo_sex)) + theme_ss + 
+  scale_colour_manual(values=colors_emerald_contrast)+ facet_grid(demo_sex ~ .)
+```
+
+### add labels that repel each other(don't overlap) HAven't test yet
+Reference: http://r-statistics.co/Complete-Ggplot2-Tutorial-Part2-Customizing-Theme-With-R-Code.html#3.%20Adding%20Text,%20Label%20and%20Annotation
+```{r}
+# Plot text and label that REPELS eachother (using ggrepel pkg) ------------
+library(ggrepel)
+gg + geom_text_repel(aes(label=large_county), size=2, data=midwest_sub) + labs(subtitle="With ggrepel::geom_text_repel") + theme(legend.position = "None")   # text
+
+gg + geom_label_repel(aes(label=large_county), size=2, data=midwest_sub) + labs(subtitle="With ggrepel::geom_label_repel") + theme(legend.position = "None")   # label
+```
