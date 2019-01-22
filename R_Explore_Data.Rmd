@@ -121,3 +121,10 @@ ggplot(dat, aes(x=tip)) +geom_density() + theme_ss +
   theme(axis.text.x = element_text(size=12))+
   scale_x_continuous(labels=dollar_format(prefix="€"))
 ```
+
+# GEt structure of data frame
+```{r}
+str(dat_csv3)
+summary(dat_csv3)
+```
+

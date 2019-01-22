@@ -1,0 +1,1001 @@
+id,first_name,last_name,gender,time,location,total_bill,tip,food,Day
+1,Ginelle,Potes,Female,Supper,Dragon's Den,30.23,1.73,Cheesy Garlic Bread Meatball Ring,Sunday
+2,Genia,Batteson,Female,First Breakfast,Dragon's Den,5.4,6.35,Eggs,Monday
+3,Moyna,Gert,Female,First Breakfast,Town,23.28,7.73,Bilbo's Tea Cake,Highday
+4,Alvie,Brizland,Male,Dinner,Gladden Fields,30.99,3.16,Cheesy Garlic Bread Meatball Ring,Monday
+5,Odo,Schermick,Male,Supper,Gladden Fields,24.15,9.05,Beorn Honey Nut Cake,Sunday
+6,Jeno,Boughtwood,Male,Afternoon Tea,Town,1.53,4.72,Cheesy Garlic Bread Meatball Ring,Highday
+7,Eddi,Rignoldes,Female,Supper,Town,1.02,5.41,Strawberry and Banana French Toast,Trewsday
+8,Phylys,Beevor,Female,Dinner,The Shire,21.95,6.75,Bilbo's Tea Cake,Trewsday
+9,Axe,O'Luby,Male,Elevenses,The Shire,26.31,9.62,Po-Tay-To Onion Soup,Sunday
+10,Johannah,Fadden,Female,First Breakfast,The Shire,23.52,2.33,Bilbo's Tea Cake,Sterday
+11,Ignacio,Crumley,Male,Supper,Dragon's Den,4.65,5.8,Beorn Honey Nut Cake,Monday
+12,Cherish,Ledger,Female,Supper,The Shire,20.37,1.39,Po-Tay-To Onion Soup,Trewsday
+13,Vickie,Aime,Female,First Breakfast,The Shire,21.32,8.27,Eggs,Sunday
+14,Gwyn,Hampshire,Female,Dinner,The Shire,23.56,6.61,Cheesy Garlic Bread Meatball Ring,Mersday
+15,Tonya,Opdenorth,Female,Supper,Town,27.95,8.19,Cheesy Garlic Bread Meatball Ring,Mersday
+16,Jody,Rodda,Male,Elevenses,Town,18.28,2.9,Cheesy Garlic Bread Meatball Ring,Monday
+17,Matteo,Oakman,Male,Afternoon Tea,Gladden Fields,16.55,6.95,Beorn Honey Nut Cake,Hevensday
+18,Agosto,Smead,Male,Elevenses,Town,33.51,7.53,Cheesy Garlic Bread Meatball Ring,Mersday
+19,Dieter,Goullee,Male,Elevenses,Dragon's Den,15.26,6.11,Bilbo's Tea Cake,Monday
+20,Almeria,Kellington,Female,Second Breakfast,The Shire,25.49,9.73,Eggs,Monday
+21,Kevina,Gliddon,Female,Elevenses,Gladden Fields,4.93,7.28,Bilbo's Tea Cake,Sunday
+22,Bonny,Cowe,Female,Second Breakfast,The Shire,10.91,3.19,Cheesy Garlic Bread Meatball Ring,Sterday
+23,Basile,Downs,Male,Elevenses,Dragon's Den,9.34,5.28,Beorn Honey Nut Cake,Mersday
+24,Giff,Meach,Male,First Breakfast,Dragon's Den,26.62,7.92,Cheesy Garlic Bread Meatball Ring,Sterday
+25,Ree,McElane,Female,Afternoon Tea,Gladden Fields,2.1,9.46,Beorn Honey Nut Cake,Mersday
+26,Gill,Peplaw,Male,Dinner,The Shire,28.2,3.58,Eggs,Highday
+27,Kristo,Fleischer,Male,Supper,Dragon's Den,17.21,6.61,Cheesy Garlic Bread Meatball Ring,Mersday
+28,Andie,Crock,Male,Elevenses,The Shire,31.88,3.99,Beorn Honey Nut Cake,Mersday
+29,Rosemarie,Goalby,Female,Afternoon Tea,Dragon's Den,26.5,5.99,Bilbo's Tea Cake,Mersday
+30,Ofilia,Sargeaunt,Female,Second Breakfast,Dragon's Den,4.82,2.0,Bilbo's Tea Cake,Mersday
+31,Arly,Galvin,Female,First Breakfast,Dragon's Den,2.11,4.77,Bilbo's Tea Cake,Trewsday
+32,Lorain,Capozzi,Female,Elevenses,The Shire,11.79,9.6,Eggs,Trewsday
+33,Fanni,Gonzales,Female,Second Breakfast,Town,28.57,8.68,Strawberry and Banana French Toast,Sterday
+34,Quillan,Doud,Male,Supper,Gladden Fields,13.84,8.64,Beorn Honey Nut Cake,Sunday
+35,Worth,Wyburn,Male,Luncheon,Gladden Fields,2.25,2.3,Po-Tay-To Onion Soup,Mersday
+36,Dode,Endle,Female,Luncheon,The Shire,6.16,1.69,Cheesy Garlic Bread Meatball Ring,Trewsday
+37,Curcio,Blanc,Male,Second Breakfast,Town,23.92,4.46,Beorn Honey Nut Cake,Mersday
+38,Gerry,Henrichsen,Male,Luncheon,Dragon's Den,23.43,7.28,Cheesy Garlic Bread Meatball Ring,Hevensday
+39,Lina,Scherme,Female,Afternoon Tea,Dragon's Den,22.34,5.46,Eggs,Sunday
+40,Kurtis,Scneider,Male,Supper,The Shire,8.33,8.95,Eggs,Sterday
+41,Chris,Withams,Female,Dinner,Dragon's Den,3.52,1.3,Eggs,Hevensday
+42,Mady,McFadden,Female,Afternoon Tea,The Shire,33.58,3.7,Beorn Honey Nut Cake,Sunday
+43,Garrot,Longbottom,Male,Luncheon,The Shire,21.3,2.93,Eggs,Hevensday
+44,Sibyl,Peaddie,Male,Afternoon Tea,The Shire,13.95,2.93,Po-Tay-To Onion Soup,Highday
+45,Ward,Grant,Male,Luncheon,Dragon's Den,17.77,8.02,Po-Tay-To Onion Soup,Monday
+46,Stanly,Gregoletti,Male,Dinner,Town,27.11,2.21,Beorn Honey Nut Cake,Mersday
+47,Pascal,Corrin,Male,Supper,Town,10.3,3.83,Bilbo's Tea Cake,Sterday
+48,Wyn,Ikins,Male,Luncheon,Dragon's Den,30.48,7.99,Bilbo's Tea Cake,Sunday
+49,Alasteir,Harvison,Male,Second Breakfast,The Shire,4.71,8.53,Beorn Honey Nut Cake,Trewsday
+50,Juline,Shird,Female,Elevenses,Gladden Fields,18.86,5.11,Eggs,Monday
+51,Charlena,Bourhill,Female,First Breakfast,Gladden Fields,22.93,9.91,Beorn Honey Nut Cake,Monday
+52,Nat,Le Houx,Male,First Breakfast,Town,7.14,3.25,Strawberry and Banana French Toast,Sunday
+53,Antonia,Verdun,Female,First Breakfast,The Shire,29.71,2.55,Beorn Honey Nut Cake,Hevensday
+54,Vern,Pilling,Male,Second Breakfast,Dragon's Den,5.64,8.64,Strawberry and Banana French Toast,Monday
+55,Emmet,Giorgielli,Male,Supper,Gladden Fields,13.89,6.18,Bilbo's Tea Cake,Hevensday
+56,Rowland,Horney,Male,Luncheon,Dragon's Den,27.08,3.11,Strawberry and Banana French Toast,Highday
+57,Margot,Jancik,Female,Afternoon Tea,Town,16.56,1.49,Strawberry and Banana French Toast,Sterday
+58,Britteny,Bloxsom,Female,Dinner,Gladden Fields,20.5,1.45,Strawberry and Banana French Toast,Sterday
+59,Ealasaid,Inkpin,Female,Supper,The Shire,33.95,9.01,Strawberry and Banana French Toast,Hevensday
+60,Devina,Westcar,Female,First Breakfast,The Shire,21.93,2.44,Strawberry and Banana French Toast,Highday
+61,Gerhardt,Yanyushkin,Male,Luncheon,The Shire,22.88,1.76,Beorn Honey Nut Cake,Trewsday
+62,Erhart,Kentwell,Male,First Breakfast,Dragon's Den,26.48,1.29,Bilbo's Tea Cake,Trewsday
+63,Krystle,Dally,Female,First Breakfast,Dragon's Den,9.05,3.26,Cheesy Garlic Bread Meatball Ring,Hevensday
+64,Oneida,Pilfold,Female,First Breakfast,The Shire,32.79,5.92,Cheesy Garlic Bread Meatball Ring,Hevensday
+65,Jule,Canape,Male,Luncheon,Gladden Fields,22.76,9.41,Cheesy Garlic Bread Meatball Ring,Sunday
+66,Freddy,Drews,Female,Luncheon,The Shire,6.05,4.27,Eggs,Trewsday
+67,Lexi,Buten,Female,Elevenses,Dragon's Den,24.83,6.03,Strawberry and Banana French Toast,Mersday
+68,Karlens,Le Friec,Male,Supper,The Shire,23.68,1.2,Beorn Honey Nut Cake,Trewsday
+69,Kittie,McElwee,Female,Luncheon,Dragon's Den,18.03,4.0,Po-Tay-To Onion Soup,Sterday
+70,Marielle,Search,Female,Supper,The Shire,12.75,6.34,Po-Tay-To Onion Soup,Highday
+71,Salem,Gantz,Male,Supper,Gladden Fields,6.66,5.87,Eggs,Trewsday
+72,Molly,Hamflett,Female,Second Breakfast,Town,15.96,8.01,Beorn Honey Nut Cake,Sterday
+73,Aurilia,Bloxam,Female,Afternoon Tea,The Shire,31.21,6.07,Eggs,Highday
+74,Rikki,Knell,Male,Afternoon Tea,Dragon's Den,29.05,9.93,Po-Tay-To Onion Soup,Hevensday
+75,Marisa,Thombleson,Female,Supper,Gladden Fields,17.53,3.15,Po-Tay-To Onion Soup,Trewsday
+76,Minni,Philipsson,Female,Supper,The Shire,4.66,3.06,Beorn Honey Nut Cake,Highday
+77,Niall,Sargood,Male,Supper,Gladden Fields,15.86,9.82,Beorn Honey Nut Cake,Hevensday
+78,Kasey,Loveman,Female,Second Breakfast,Dragon's Den,1.23,2.18,Beorn Honey Nut Cake,Trewsday
+79,Berke,Brewster,Male,Elevenses,Dragon's Den,33.48,7.76,Po-Tay-To Onion Soup,Mersday
+80,Abbie,Gannicott,Female,Supper,The Shire,11.9,1.72,Po-Tay-To Onion Soup,Highday
+81,Marcellus,Bramham,Male,Supper,Town,15.98,9.01,Strawberry and Banana French Toast,Sterday
+82,Kiley,MacGinlay,Male,Second Breakfast,Town,12.61,8.2,Bilbo's Tea Cake,Highday
+83,Kinnie,Arni,Male,Supper,Dragon's Den,7.52,1.37,Strawberry and Banana French Toast,Sunday
+84,Bogart,Burrett,Male,Dinner,The Shire,13.26,3.4,Strawberry and Banana French Toast,Mersday
+85,Marilyn,Elvidge,Female,Dinner,Gladden Fields,11.56,2.58,Beorn Honey Nut Cake,Sterday
+86,Matthew,Dragge,Male,Luncheon,Town,17.96,9.99,Eggs,Mersday
+87,Oliviero,Dalla,Male,First Breakfast,Town,12.67,1.57,Po-Tay-To Onion Soup,Sunday
+88,Tommy,Vynoll,Male,Elevenses,Gladden Fields,6.43,5.68,Po-Tay-To Onion Soup,Monday
+89,Dee dee,Jills,Female,Luncheon,Dragon's Den,33.0,2.63,Eggs,Mersday
+90,Hector,Smellie,Male,Second Breakfast,Dragon's Den,12.37,1.71,Bilbo's Tea Cake,Mersday
+91,Claudia,Whardley,Female,Elevenses,Town,24.65,6.93,Po-Tay-To Onion Soup,Highday
+92,Woody,Averay,Male,Second Breakfast,Town,29.09,3.81,Po-Tay-To Onion Soup,Trewsday
+93,Fan,Edgcombe,Female,Dinner,Dragon's Den,10.43,8.21,Strawberry and Banana French Toast,Mersday
+94,Sosanna,Doorbar,Female,Afternoon Tea,Dragon's Den,18.67,1.42,Cheesy Garlic Bread Meatball Ring,Sunday
+95,Randi,Launchbury,Male,Luncheon,Town,17.7,5.0,Po-Tay-To Onion Soup,Sunday
+96,Fabio,Collibear,Male,Supper,Town,15.53,7.63,Beorn Honey Nut Cake,Sterday
+97,Barri,Doyle,Male,Afternoon Tea,Gladden Fields,17.21,6.11,Cheesy Garlic Bread Meatball Ring,Highday
+98,Wendie,Liger,Female,Elevenses,Town,12.55,7.11,Strawberry and Banana French Toast,Monday
+99,Tedra,O'Corren,Female,Afternoon Tea,The Shire,24.56,4.32,Bilbo's Tea Cake,Monday
+100,Ronni,St. Ledger,Female,Supper,Gladden Fields,31.92,4.24,Beorn Honey Nut Cake,Trewsday
+101,Kiel,O'Fallon,Male,Second Breakfast,Gladden Fields,13.29,6.86,Strawberry and Banana French Toast,Sunday
+102,Mabel,Carah,Female,Afternoon Tea,The Shire,32.94,4.48,Eggs,Hevensday
+103,Corinne,Lansbury,Female,Supper,Dragon's Den,18.78,7.25,Cheesy Garlic Bread Meatball Ring,Sunday
+104,Raimondo,Conlon,Male,Dinner,The Shire,15.67,4.42,Beorn Honey Nut Cake,Monday
+105,Maribeth,Tuhy,Female,Luncheon,Dragon's Den,5.53,8.24,Strawberry and Banana French Toast,Trewsday
+106,Roxanne,Staveley,Female,Afternoon Tea,Gladden Fields,21.93,9.59,Po-Tay-To Onion Soup,Trewsday
+107,Felipe,Bilbey,Male,Afternoon Tea,Dragon's Den,21.36,3.45,Beorn Honey Nut Cake,Monday
+108,Laurena,Paulsen,Female,Supper,The Shire,1.34,3.33,Beorn Honey Nut Cake,Highday
+109,Nicolais,Tesauro,Male,Afternoon Tea,Gladden Fields,29.54,9.73,Bilbo's Tea Cake,Highday
+110,Eryn,Audiss,Female,First Breakfast,Gladden Fields,2.59,1.37,Beorn Honey Nut Cake,Mersday
+111,Thane,Demaid,Male,Afternoon Tea,The Shire,10.94,5.32,Eggs,Highday
+112,Niki,Grafham,Female,First Breakfast,The Shire,6.21,1.42,Bilbo's Tea Cake,Hevensday
+113,Rustie,List,Male,Supper,The Shire,14.72,3.92,Beorn Honey Nut Cake,Sunday
+114,Rahel,Kochlin,Female,Second Breakfast,Town,3.98,7.84,Eggs,Highday
+115,Kellby,Sevior,Male,Supper,Gladden Fields,28.44,2.36,Beorn Honey Nut Cake,Sunday
+116,Gauthier,Olyfant,Male,Second Breakfast,The Shire,14.04,7.92,Po-Tay-To Onion Soup,Sterday
+117,Jodie,Swalowe,Female,Second Breakfast,The Shire,28.59,4.44,Po-Tay-To Onion Soup,Monday
+118,Washington,Clipson,Male,Dinner,Town,2.5,10.0,Beorn Honey Nut Cake,Mersday
+119,Madelena,Mouton,Female,Supper,The Shire,18.06,2.89,Beorn Honey Nut Cake,Monday
+120,Rina,Brigstock,Female,Supper,The Shire,1.01,5.85,Eggs,Monday
+121,Nate,Kellitt,Male,Afternoon Tea,The Shire,29.71,7.25,Strawberry and Banana French Toast,Mersday
+122,Veriee,Cape,Female,Second Breakfast,The Shire,19.48,3.84,Strawberry and Banana French Toast,Monday
+123,Mattheus,Hinners,Male,Dinner,Town,26.24,9.48,Po-Tay-To Onion Soup,Hevensday
+124,Amelia,De La Cote,Female,First Breakfast,Gladden Fields,34.86,6.0,Po-Tay-To Onion Soup,Mersday
+125,Devlen,Keast,Male,Luncheon,Gladden Fields,9.12,5.31,Strawberry and Banana French Toast,Monday
+126,Rene,Cowely,Male,Second Breakfast,The Shire,9.45,1.67,Beorn Honey Nut Cake,Hevensday
+127,L;urette,Gladhill,Female,Luncheon,Town,8.78,8.95,Cheesy Garlic Bread Meatball Ring,Sunday
+128,Adey,Edel,Female,Afternoon Tea,Dragon's Den,28.44,7.56,Beorn Honey Nut Cake,Mersday
+129,Sully,Westpfel,Male,Dinner,Town,29.27,1.72,Beorn Honey Nut Cake,Highday
+130,Nickie,Ascraft,Male,Luncheon,Gladden Fields,29.22,4.12,Bilbo's Tea Cake,Monday
+131,Ingelbert,Shiel,Male,Afternoon Tea,The Shire,12.85,4.35,Strawberry and Banana French Toast,Monday
+132,Priscella,Humberston,Female,Luncheon,The Shire,14.73,5.9,Po-Tay-To Onion Soup,Highday
+133,Ephraim,Shorie,Male,Afternoon Tea,Gladden Fields,24.01,2.42,Bilbo's Tea Cake,Monday
+134,Stephanus,Burnip,Male,Luncheon,Dragon's Den,33.76,1.57,Strawberry and Banana French Toast,Monday
+135,Hyacinthe,Luquet,Female,Elevenses,The Shire,30.4,9.51,Eggs,Mersday
+136,Odilia,Clement,Female,Dinner,Dragon's Den,18.74,2.28,Po-Tay-To Onion Soup,Hevensday
+137,Jordan,Blamire,Female,Afternoon Tea,Dragon's Den,25.15,2.98,Po-Tay-To Onion Soup,Sterday
+138,Audre,Quaintance,Female,First Breakfast,Town,11.32,1.11,Eggs,Sunday
+139,Haydon,Corcut,Male,Supper,Dragon's Den,4.36,5.28,Beorn Honey Nut Cake,Monday
+140,Buiron,Kemmish,Male,Elevenses,Dragon's Den,15.6,7.23,Eggs,Hevensday
+141,Sal,Altree,Female,Second Breakfast,The Shire,6.77,2.37,Strawberry and Banana French Toast,Sterday
+142,Amalle,Greenroa,Female,Dinner,The Shire,20.68,4.95,Beorn Honey Nut Cake,Sterday
+143,Deni,Connew,Female,Luncheon,The Shire,30.88,8.33,Strawberry and Banana French Toast,Sterday
+144,Field,Coners,Male,Second Breakfast,Gladden Fields,12.82,2.74,Po-Tay-To Onion Soup,Monday
+145,Ethan,Shaylor,Male,Elevenses,The Shire,14.4,4.63,Strawberry and Banana French Toast,Monday
+146,Konstantine,Chawner,Male,First Breakfast,Dragon's Den,18.94,5.4,Strawberry and Banana French Toast,Monday
+147,Morse,Summerbell,Male,Afternoon Tea,Dragon's Den,12.05,1.19,Beorn Honey Nut Cake,Sterday
+148,Aldridge,Upwood,Male,Second Breakfast,Dragon's Den,11.04,9.01,Beorn Honey Nut Cake,Monday
+149,Giacomo,Pether,Male,Afternoon Tea,Town,22.67,4.45,Eggs,Monday
+150,Cicely,Sybbe,Female,Second Breakfast,The Shire,21.16,9.94,Cheesy Garlic Bread Meatball Ring,Sunday
+151,Hillery,Stannislawski,Male,Dinner,Town,23.4,3.25,Strawberry and Banana French Toast,Mersday
+152,Hoyt,Haycroft,Male,Luncheon,Dragon's Den,7.96,2.56,Eggs,Trewsday
+153,Lombard,Grainge,Male,First Breakfast,Gladden Fields,23.17,2.91,Eggs,Trewsday
+154,Lawton,Teresi,Male,Second Breakfast,The Shire,23.93,3.61,Cheesy Garlic Bread Meatball Ring,Hevensday
+155,Ann,Cadell,Female,First Breakfast,Gladden Fields,20.9,4.33,Po-Tay-To Onion Soup,Sunday
+156,Nesta,McCrea,Female,Luncheon,Town,15.87,8.64,Bilbo's Tea Cake,Hevensday
+157,Dannie,Guerry,Male,First Breakfast,Town,11.18,1.96,Beorn Honey Nut Cake,Monday
+158,Stacy,Longbottom,Male,Luncheon,Gladden Fields,14.79,3.17,Strawberry and Banana French Toast,Trewsday
+159,Hobey,Isaac,Male,Supper,Town,17.02,9.35,Cheesy Garlic Bread Meatball Ring,Mersday
+160,George,Ferencowicz,Male,Supper,Gladden Fields,24.74,9.12,Cheesy Garlic Bread Meatball Ring,Mersday
+161,Theodoric,Bertolin,Male,Luncheon,Town,31.06,2.17,Strawberry and Banana French Toast,Highday
+162,Kessia,Covolini,Female,Dinner,Town,28.39,5.89,Eggs,Mersday
+163,Keelby,Duggon,Male,Afternoon Tea,The Shire,11.13,5.75,Eggs,Sterday
+164,Catriona,Kier,Female,Supper,Gladden Fields,5.4,2.79,Po-Tay-To Onion Soup,Sterday
+165,Corette,Preston,Female,Afternoon Tea,Gladden Fields,8.45,8.88,Cheesy Garlic Bread Meatball Ring,Monday
+166,Udall,Kaesmans,Male,First Breakfast,Gladden Fields,19.67,4.91,Eggs,Hevensday
+167,Sutherland,Tremolieres,Male,First Breakfast,Town,12.36,1.51,Bilbo's Tea Cake,Trewsday
+168,Noll,Bayles,Male,Dinner,Dragon's Den,21.13,1.22,Beorn Honey Nut Cake,Monday
+169,Silvie,Faveryear,Female,Second Breakfast,Dragon's Den,11.78,9.64,Beorn Honey Nut Cake,Sunday
+170,Olvan,Labram,Male,Dinner,Town,21.12,4.99,Bilbo's Tea Cake,Trewsday
+171,Vyky,Labuschagne,Female,Afternoon Tea,The Shire,14.87,3.82,Po-Tay-To Onion Soup,Mersday
+172,Colet,Goodsell,Male,Second Breakfast,Town,33.04,4.45,Eggs,Highday
+173,Micheal,Eager,Male,Elevenses,Gladden Fields,32.72,7.79,Eggs,Hevensday
+174,Duffy,Songer,Male,Dinner,Gladden Fields,11.94,3.19,Strawberry and Banana French Toast,Highday
+175,Linnea,Lamport,Female,Elevenses,Town,20.33,8.22,Po-Tay-To Onion Soup,Highday
+176,Gregoire,Coathup,Male,Second Breakfast,Town,26.5,5.03,Strawberry and Banana French Toast,Trewsday
+177,Elijah,Cristofanini,Male,First Breakfast,The Shire,24.94,9.53,Strawberry and Banana French Toast,Highday
+178,Jay,Hanington,Male,Elevenses,Dragon's Den,33.22,2.88,Bilbo's Tea Cake,Highday
+179,Luke,Cleminson,Male,Second Breakfast,Town,34.87,2.83,Beorn Honey Nut Cake,Highday
+180,Rheba,Anglin,Female,Elevenses,Gladden Fields,30.1,9.16,Beorn Honey Nut Cake,Mersday
+181,Celestyna,Culross,Female,Second Breakfast,Gladden Fields,28.61,7.31,Bilbo's Tea Cake,Sterday
+182,Sallie,Gallyon,Female,Dinner,Town,30.02,1.53,Strawberry and Banana French Toast,Mersday
+183,Mata,cornhill,Male,Afternoon Tea,Dragon's Den,25.3,6.77,Strawberry and Banana French Toast,Trewsday
+184,Rand,Biscomb,Male,Luncheon,Gladden Fields,7.58,7.42,Beorn Honey Nut Cake,Hevensday
+185,Maire,Paliser,Female,Supper,The Shire,12.54,4.38,Eggs,Hevensday
+186,Rachael,Sargood,Female,Dinner,Dragon's Den,8.53,7.29,Bilbo's Tea Cake,Highday
+187,Bertina,McBayne,Female,Supper,The Shire,23.47,1.02,Eggs,Hevensday
+188,Linc,Cordaroy,Male,Supper,The Shire,16.83,6.12,Eggs,Trewsday
+189,Pattin,Fitzackerley,Male,First Breakfast,The Shire,29.39,7.76,Cheesy Garlic Bread Meatball Ring,Sterday
+190,Tamqrah,Dalla,Female,Afternoon Tea,Gladden Fields,24.02,1.02,Po-Tay-To Onion Soup,Trewsday
+191,Lauryn,Orsay,Female,Supper,Town,30.65,3.34,Beorn Honey Nut Cake,Monday
+192,Nial,Sarsons,Male,Supper,The Shire,2.9,5.27,Strawberry and Banana French Toast,Hevensday
+193,Joeann,Pearmine,Female,Second Breakfast,Town,29.45,8.82,Cheesy Garlic Bread Meatball Ring,Monday
+194,Kirsti,Gillum,Female,Afternoon Tea,Gladden Fields,34.79,6.16,Beorn Honey Nut Cake,Trewsday
+195,Lorelei,Chrisp,Female,First Breakfast,Dragon's Den,14.31,7.51,Strawberry and Banana French Toast,Hevensday
+196,Dorelia,Dufour,Female,Dinner,Town,34.17,8.69,Strawberry and Banana French Toast,Sunday
+197,Adlai,Firidolfi,Male,Afternoon Tea,Town,21.39,1.98,Cheesy Garlic Bread Meatball Ring,Monday
+198,Olav,Rubanenko,Male,Luncheon,Gladden Fields,23.54,2.11,Beorn Honey Nut Cake,Mersday
+199,Arel,Hughman,Male,Supper,Dragon's Den,9.34,9.25,Cheesy Garlic Bread Meatball Ring,Sterday
+200,Johanna,Reeders,Female,Second Breakfast,The Shire,5.8,9.98,Po-Tay-To Onion Soup,Sterday
+201,Maris,Thackston,Female,Luncheon,Town,34.83,8.77,Beorn Honey Nut Cake,Sunday
+202,Cristy,Coldicott,Female,Afternoon Tea,Dragon's Den,4.69,2.16,Beorn Honey Nut Cake,Highday
+203,Terrill,Whall,Male,Dinner,Dragon's Den,33.09,3.26,Cheesy Garlic Bread Meatball Ring,Sunday
+204,Vic,McCudden,Male,Afternoon Tea,Gladden Fields,2.89,6.34,Eggs,Hevensday
+205,Livia,Wheaton,Female,Luncheon,Gladden Fields,12.15,5.63,Eggs,Sunday
+206,Nickolas,Boake,Male,Second Breakfast,Dragon's Den,26.19,6.19,Cheesy Garlic Bread Meatball Ring,Sunday
+207,Enid,Linne,Female,First Breakfast,Dragon's Den,22.26,4.56,Cheesy Garlic Bread Meatball Ring,Highday
+208,Doyle,Winscum,Male,Dinner,Dragon's Den,9.88,4.65,Strawberry and Banana French Toast,Highday
+209,Bearnard,Ruddiman,Male,Supper,The Shire,3.18,5.98,Bilbo's Tea Cake,Sterday
+210,Saba,Gero,Female,Elevenses,Gladden Fields,2.46,2.16,Beorn Honey Nut Cake,Hevensday
+211,Jaine,Abbati,Female,Supper,The Shire,15.79,1.11,Po-Tay-To Onion Soup,Trewsday
+212,Alexa,Tincknell,Female,Elevenses,Dragon's Den,30.06,6.36,Bilbo's Tea Cake,Sterday
+213,Dewey,Martindale,Male,First Breakfast,Town,33.73,4.16,Cheesy Garlic Bread Meatball Ring,Sterday
+214,Allistir,Lawlings,Male,Supper,The Shire,15.68,6.0,Bilbo's Tea Cake,Hevensday
+215,Priscella,Wolfendell,Female,Afternoon Tea,Gladden Fields,31.45,1.95,Bilbo's Tea Cake,Sunday
+216,Augustine,Pudan,Male,Luncheon,Dragon's Den,29.36,6.23,Strawberry and Banana French Toast,Monday
+217,Gretel,Uden,Female,Elevenses,Dragon's Den,17.38,9.79,Beorn Honey Nut Cake,Hevensday
+218,Levy,Blant,Male,Supper,Town,11.05,2.3,Eggs,Sterday
+219,Roderick,Egerton,Male,Luncheon,The Shire,8.86,2.41,Eggs,Sterday
+220,Zulema,Ashlee,Female,First Breakfast,Dragon's Den,18.87,5.93,Strawberry and Banana French Toast,Hevensday
+221,Chlo,Hannaford,Female,Second Breakfast,The Shire,7.14,4.95,Po-Tay-To Onion Soup,Sunday
+222,Rickie,Cornelleau,Male,Elevenses,Dragon's Den,16.83,2.53,Beorn Honey Nut Cake,Monday
+223,Adrian,Hamfleet,Female,Afternoon Tea,Dragon's Den,33.48,3.47,Strawberry and Banana French Toast,Sunday
+224,Quinton,Daniell,Male,Elevenses,The Shire,7.17,8.89,Bilbo's Tea Cake,Sterday
+225,Jerome,Crickmoor,Male,Luncheon,Dragon's Den,11.06,5.62,Strawberry and Banana French Toast,Sunday
+226,Ilyssa,Abatelli,Female,First Breakfast,Gladden Fields,1.06,1.81,Strawberry and Banana French Toast,Hevensday
+227,Violette,Plester,Female,Dinner,The Shire,21.7,6.7,Cheesy Garlic Bread Meatball Ring,Monday
+228,Lorianne,McCutheon,Female,Luncheon,The Shire,32.42,6.7,Strawberry and Banana French Toast,Mersday
+229,Sisely,Tyt,Female,Supper,Dragon's Den,5.68,2.07,Eggs,Hevensday
+230,Andrei,Wheble,Female,Second Breakfast,Gladden Fields,8.89,5.36,Cheesy Garlic Bread Meatball Ring,Sterday
+231,Eran,Weild,Female,Afternoon Tea,The Shire,16.1,4.48,Cheesy Garlic Bread Meatball Ring,Monday
+232,Sayre,Derye-Barrett,Male,Elevenses,Gladden Fields,14.79,7.6,Bilbo's Tea Cake,Monday
+233,Mendie,Caddick,Male,First Breakfast,Town,21.69,7.53,Bilbo's Tea Cake,Monday
+234,Denys,Oehm,Female,Second Breakfast,The Shire,12.53,5.84,Bilbo's Tea Cake,Monday
+235,Abey,Sired,Male,First Breakfast,Gladden Fields,10.87,7.61,Strawberry and Banana French Toast,Sterday
+236,Lanna,Eslie,Female,Second Breakfast,Dragon's Den,6.69,4.84,Po-Tay-To Onion Soup,Hevensday
+237,Tammie,Blase,Male,First Breakfast,The Shire,19.88,2.32,Strawberry and Banana French Toast,Trewsday
+238,Hillary,MacGruer,Female,Afternoon Tea,Town,10.97,9.15,Bilbo's Tea Cake,Mersday
+239,Billi,Renwick,Female,Dinner,Gladden Fields,2.64,8.77,Po-Tay-To Onion Soup,Monday
+240,Vidovik,Sawood,Male,Dinner,The Shire,3.46,9.35,Strawberry and Banana French Toast,Sterday
+241,Mike,Sandal,Male,Afternoon Tea,Town,1.3,8.33,Strawberry and Banana French Toast,Highday
+242,Ettore,Bonnet,Male,Luncheon,Dragon's Den,22.11,1.9,Beorn Honey Nut Cake,Monday
+243,Jefferey,Bonnar,Male,Luncheon,The Shire,23.28,3.43,Po-Tay-To Onion Soup,Mersday
+244,Fae,Huguet,Female,Second Breakfast,Gladden Fields,27.1,1.29,Po-Tay-To Onion Soup,Monday
+245,Farr,Honnicott,Male,Dinner,Dragon's Den,17.38,2.72,Bilbo's Tea Cake,Mersday
+246,Jesse,Offiler,Male,First Breakfast,Town,28.01,8.42,Eggs,Trewsday
+247,Samara,Rowet,Female,Afternoon Tea,Dragon's Den,19.26,7.94,Eggs,Sunday
+248,Si,Dummigan,Male,Dinner,Gladden Fields,31.15,7.86,Cheesy Garlic Bread Meatball Ring,Highday
+249,Winfield,Wilmot,Male,Elevenses,Dragon's Den,2.83,4.9,Cheesy Garlic Bread Meatball Ring,Highday
+250,Leonora,Bowerbank,Female,First Breakfast,Town,6.55,5.13,Eggs,Highday
+251,Ingrid,Issacof,Female,Supper,The Shire,8.26,3.71,Po-Tay-To Onion Soup,Sunday
+252,Dona,Welbrock,Female,Afternoon Tea,The Shire,1.24,3.32,Beorn Honey Nut Cake,Hevensday
+253,Arlie,Keogh,Female,Supper,Gladden Fields,21.2,8.82,Po-Tay-To Onion Soup,Monday
+254,Tedman,Dalgarnowch,Male,Dinner,Dragon's Den,16.22,8.33,Beorn Honey Nut Cake,Monday
+255,Lodovico,Alenin,Male,Afternoon Tea,Town,3.02,7.64,Beorn Honey Nut Cake,Highday
+256,Henderson,Degg,Male,Supper,Town,15.97,8.55,Po-Tay-To Onion Soup,Sterday
+257,Norby,Geldeard,Male,Afternoon Tea,Town,32.86,2.98,Cheesy Garlic Bread Meatball Ring,Highday
+258,Bobbi,Cornfoot,Female,Dinner,Town,15.72,5.66,Eggs,Highday
+259,Kessia,Tupp,Female,Luncheon,Gladden Fields,1.45,3.85,Strawberry and Banana French Toast,Hevensday
+260,Lazarus,Thorald,Male,Supper,Town,28.75,5.93,Strawberry and Banana French Toast,Monday
+261,Josefa,Jesteco,Female,Afternoon Tea,Dragon's Den,3.47,6.75,Bilbo's Tea Cake,Sterday
+262,Zondra,McTaggart,Female,First Breakfast,The Shire,19.41,2.05,Beorn Honey Nut Cake,Monday
+263,Bone,Brudenell,Male,Second Breakfast,Gladden Fields,18.56,2.04,Beorn Honey Nut Cake,Sterday
+264,Burt,Ravenshear,Male,Dinner,Town,2.44,5.4,Eggs,Sterday
+265,Dilly,Chidler,Male,First Breakfast,Town,33.67,8.63,Cheesy Garlic Bread Meatball Ring,Sterday
+266,Vaclav,Bauman,Male,Dinner,Town,6.36,5.09,Bilbo's Tea Cake,Trewsday
+267,Sari,Mateu,Female,Elevenses,Gladden Fields,26.18,2.61,Beorn Honey Nut Cake,Sunday
+268,Fleurette,Cronk,Female,Supper,Town,10.75,1.68,Po-Tay-To Onion Soup,Sterday
+269,Dane,Mil,Male,Second Breakfast,The Shire,3.91,5.75,Bilbo's Tea Cake,Monday
+270,Kristi,Mandres,Female,First Breakfast,The Shire,30.31,1.19,Eggs,Sterday
+271,Nesta,Pietzner,Female,Afternoon Tea,Gladden Fields,22.16,1.67,Cheesy Garlic Bread Meatball Ring,Hevensday
+272,Tracie,Lesly,Female,Luncheon,Dragon's Den,22.79,1.14,Eggs,Mersday
+273,Nariko,Kohrs,Female,Elevenses,Dragon's Den,28.41,8.53,Eggs,Sterday
+274,Tabor,Deal,Male,Second Breakfast,Gladden Fields,11.32,6.83,Eggs,Sterday
+275,Ganny,Antony,Male,Afternoon Tea,Gladden Fields,8.93,5.97,Strawberry and Banana French Toast,Highday
+276,Chas,Rowcliffe,Male,Afternoon Tea,Gladden Fields,32.51,1.24,Strawberry and Banana French Toast,Hevensday
+277,Elizabet,Andren,Female,Second Breakfast,Town,3.2,6.18,Strawberry and Banana French Toast,Highday
+278,Teressa,Powys,Female,Dinner,The Shire,13.71,9.54,Beorn Honey Nut Cake,Mersday
+279,Janela,Barmby,Female,Supper,The Shire,11.86,5.43,Strawberry and Banana French Toast,Highday
+280,Fredek,Beedell,Male,Elevenses,The Shire,23.22,6.11,Strawberry and Banana French Toast,Hevensday
+281,Bridie,Forestall,Female,Second Breakfast,Dragon's Den,8.13,7.38,Beorn Honey Nut Cake,Monday
+282,Dulcia,Annear,Female,Dinner,The Shire,11.42,2.82,Eggs,Sterday
+283,Flem,Barnes,Male,Luncheon,Town,14.08,7.75,Strawberry and Banana French Toast,Monday
+284,Haze,Boolsen,Male,Luncheon,Gladden Fields,2.26,4.96,Po-Tay-To Onion Soup,Sterday
+285,Chico,Halfacre,Male,Supper,Town,1.63,6.85,Po-Tay-To Onion Soup,Sterday
+286,Delphine,McCarl,Female,Luncheon,The Shire,24.77,2.79,Strawberry and Banana French Toast,Mersday
+287,Lucais,Kingswood,Male,First Breakfast,Town,27.47,8.22,Strawberry and Banana French Toast,Monday
+288,Lauretta,Musgrove,Female,First Breakfast,The Shire,30.9,6.73,Beorn Honey Nut Cake,Highday
+289,Shawnee,Seifert,Female,Second Breakfast,Dragon's Den,17.53,8.68,Eggs,Sunday
+290,Tonye,Brachell,Female,Elevenses,Town,27.15,9.1,Bilbo's Tea Cake,Highday
+291,Georgy,Thripp,Male,First Breakfast,Gladden Fields,9.08,6.88,Strawberry and Banana French Toast,Trewsday
+292,Gwynne,Lowdham,Female,Afternoon Tea,Town,31.21,8.36,Eggs,Trewsday
+293,Arnie,Martusov,Male,Dinner,Dragon's Den,19.36,8.71,Eggs,Sterday
+294,Cordula,Hundley,Female,Luncheon,The Shire,22.04,5.51,Bilbo's Tea Cake,Highday
+295,Bertram,Cake,Male,Second Breakfast,Town,12.03,9.24,Bilbo's Tea Cake,Sunday
+296,Allene,McGruar,Female,Luncheon,The Shire,3.95,9.22,Cheesy Garlic Bread Meatball Ring,Sunday
+297,Araldo,Kettleson,Male,Second Breakfast,Gladden Fields,32.14,1.59,Eggs,Highday
+298,Sheree,Athey,Female,Afternoon Tea,Town,20.8,4.33,Po-Tay-To Onion Soup,Hevensday
+299,Caralie,Horsley,Female,Second Breakfast,Town,18.43,8.98,Bilbo's Tea Cake,Sterday
+300,Teena,Dewdeny,Female,Elevenses,Dragon's Den,22.4,4.34,Beorn Honey Nut Cake,Monday
+301,Fanechka,Le Barre,Female,Second Breakfast,Dragon's Den,33.5,9.86,Beorn Honey Nut Cake,Mersday
+302,Hamilton,Orehead,Male,First Breakfast,The Shire,10.61,7.8,Po-Tay-To Onion Soup,Trewsday
+303,Julietta,Mounce,Female,Supper,Dragon's Den,33.58,7.15,Cheesy Garlic Bread Meatball Ring,Sterday
+304,Kass,Huntingdon,Female,Dinner,Gladden Fields,16.86,7.35,Bilbo's Tea Cake,Monday
+305,Erika,Tomaello,Female,Second Breakfast,The Shire,24.64,2.25,Strawberry and Banana French Toast,Highday
+306,Merrie,Blooman,Female,Elevenses,Gladden Fields,8.02,2.1,Strawberry and Banana French Toast,Mersday
+307,Hillery,Cardozo,Male,Afternoon Tea,Gladden Fields,7.41,6.44,Strawberry and Banana French Toast,Trewsday
+308,Roderigo,Starbeck,Male,Afternoon Tea,The Shire,12.02,3.91,Strawberry and Banana French Toast,Hevensday
+309,Guillema,Shanklin,Female,Second Breakfast,Gladden Fields,27.72,9.8,Beorn Honey Nut Cake,Hevensday
+310,Jarrad,Ellar,Male,Afternoon Tea,The Shire,20.96,5.06,Strawberry and Banana French Toast,Sunday
+311,Ollie,Lowsely,Female,Second Breakfast,The Shire,21.82,9.23,Cheesy Garlic Bread Meatball Ring,Hevensday
+312,Mufi,MacKimmie,Female,Elevenses,Gladden Fields,32.13,9.65,Beorn Honey Nut Cake,Monday
+313,Dolorita,Hane,Female,Second Breakfast,Town,23.72,7.78,Strawberry and Banana French Toast,Highday
+314,Colene,Vinsen,Female,Dinner,Gladden Fields,33.04,8.67,Strawberry and Banana French Toast,Trewsday
+315,Moina,Paulich,Female,Dinner,Dragon's Den,6.84,4.57,Eggs,Monday
+316,Mercy,Epinay,Female,Second Breakfast,Town,28.86,8.13,Eggs,Mersday
+317,Allayne,Polamontayne,Male,Luncheon,The Shire,12.92,3.45,Strawberry and Banana French Toast,Mersday
+318,Kevyn,Hupe,Female,Dinner,Gladden Fields,14.61,6.46,Po-Tay-To Onion Soup,Sterday
+319,Zandra,Tyres,Female,Second Breakfast,Town,28.75,5.2,Eggs,Sterday
+320,Kristofor,Mitkov,Male,Dinner,Gladden Fields,7.86,7.39,Cheesy Garlic Bread Meatball Ring,Mersday
+321,Reinaldos,Tuohy,Male,Dinner,Town,25.2,1.84,Cheesy Garlic Bread Meatball Ring,Mersday
+322,Colver,Arnaudon,Male,Supper,Town,33.67,4.37,Strawberry and Banana French Toast,Hevensday
+323,Torr,Smewings,Male,Supper,Dragon's Den,4.36,1.15,Strawberry and Banana French Toast,Highday
+324,Liza,Kinleyside,Female,First Breakfast,Gladden Fields,24.39,7.48,Strawberry and Banana French Toast,Sterday
+325,Vivyanne,Finlayson,Female,Supper,Town,23.55,8.94,Po-Tay-To Onion Soup,Highday
+326,Gaspar,Geillier,Male,Afternoon Tea,Gladden Fields,15.86,4.72,Eggs,Hevensday
+327,Jordain,Cooch,Female,First Breakfast,The Shire,1.06,4.17,Cheesy Garlic Bread Meatball Ring,Hevensday
+328,Skye,Cordsen,Male,Supper,Gladden Fields,17.01,4.24,Beorn Honey Nut Cake,Trewsday
+329,Malissia,Petto,Female,Afternoon Tea,Gladden Fields,33.36,5.64,Bilbo's Tea Cake,Hevensday
+330,Joline,Tarquinio,Female,Dinner,Gladden Fields,13.49,8.32,Beorn Honey Nut Cake,Hevensday
+331,Orland,Andrichak,Male,Luncheon,The Shire,25.14,8.89,Po-Tay-To Onion Soup,Sterday
+332,Livia,Naisby,Female,Second Breakfast,Gladden Fields,34.43,6.24,Strawberry and Banana French Toast,Trewsday
+333,Trumaine,Lindeman,Male,Afternoon Tea,Dragon's Den,33.27,4.28,Bilbo's Tea Cake,Trewsday
+334,Sal,Belz,Male,Elevenses,Town,30.99,6.24,Bilbo's Tea Cake,Monday
+335,Haley,Aubert,Male,Dinner,Town,4.75,8.49,Beorn Honey Nut Cake,Monday
+336,Vidovic,Rennels,Male,Luncheon,Dragon's Den,6.27,5.18,Beorn Honey Nut Cake,Sterday
+337,Nolly,Pennino,Male,Dinner,Town,16.12,4.81,Cheesy Garlic Bread Meatball Ring,Monday
+338,Ekaterina,Meaden,Female,Afternoon Tea,Gladden Fields,25.33,5.6,Po-Tay-To Onion Soup,Highday
+339,Hebert,Cornish,Male,Afternoon Tea,The Shire,14.48,1.76,Bilbo's Tea Cake,Monday
+340,Marrissa,De Beauchemp,Female,Supper,Gladden Fields,34.37,1.01,Strawberry and Banana French Toast,Trewsday
+341,Stearn,Denmead,Male,Supper,Dragon's Den,4.41,4.87,Cheesy Garlic Bread Meatball Ring,Monday
+342,Merill,Toffoletto,Male,First Breakfast,Town,34.37,4.36,Po-Tay-To Onion Soup,Highday
+343,Ian,Beebis,Male,Elevenses,Dragon's Den,20.15,9.17,Eggs,Hevensday
+344,Shina,Gethen,Female,Afternoon Tea,Dragon's Den,18.47,1.96,Eggs,Trewsday
+345,Wileen,Engel,Female,Second Breakfast,The Shire,14.84,3.51,Eggs,Monday
+346,Melinda,Brendish,Female,Supper,The Shire,26.94,3.94,Bilbo's Tea Cake,Sunday
+347,Marisa,Scutts,Female,First Breakfast,Town,24.79,7.04,Strawberry and Banana French Toast,Sunday
+348,Charlot,Dilliston,Female,Afternoon Tea,Gladden Fields,22.18,9.9,Bilbo's Tea Cake,Highday
+349,Lloyd,Bruton,Male,Luncheon,Gladden Fields,3.65,5.07,Cheesy Garlic Bread Meatball Ring,Trewsday
+350,Marnia,Dumbreck,Female,Supper,Town,24.15,1.48,Po-Tay-To Onion Soup,Sunday
+351,Shannen,Shevill,Female,Luncheon,The Shire,10.18,5.0,Eggs,Mersday
+352,Ynes,Girardeau,Female,Afternoon Tea,Dragon's Den,5.28,6.79,Eggs,Monday
+353,Jammie,Moffatt,Female,Dinner,Dragon's Den,5.34,9.66,Beorn Honey Nut Cake,Mersday
+354,Lotty,Vaadeland,Female,Second Breakfast,The Shire,7.33,3.26,Bilbo's Tea Cake,Hevensday
+355,Derby,O' Lone,Male,Second Breakfast,Dragon's Den,7.82,4.2,Po-Tay-To Onion Soup,Monday
+356,Leupold,Dumbare,Male,Supper,Town,8.03,2.61,Bilbo's Tea Cake,Highday
+357,Arlie,Hinge,Female,Elevenses,Dragon's Den,28.61,5.34,Po-Tay-To Onion Soup,Mersday
+358,Kai,Niese,Female,Elevenses,Gladden Fields,10.31,3.85,Bilbo's Tea Cake,Mersday
+359,Warde,Baselli,Male,Afternoon Tea,Town,33.71,1.42,Bilbo's Tea Cake,Highday
+360,Noelle,MacKall,Female,Dinner,Town,15.11,7.8,Beorn Honey Nut Cake,Mersday
+361,Katalin,Pinkerton,Female,Dinner,Dragon's Den,28.33,3.6,Cheesy Garlic Bread Meatball Ring,Trewsday
+362,Bronson,Medlicott,Male,Afternoon Tea,Town,13.84,7.74,Po-Tay-To Onion Soup,Sunday
+363,Juliana,Justis,Female,Dinner,The Shire,11.32,6.11,Bilbo's Tea Cake,Trewsday
+364,Myrtle,Rable,Female,Luncheon,Dragon's Den,14.36,6.85,Bilbo's Tea Cake,Sunday
+365,Goldy,Grzelak,Female,First Breakfast,Town,24.33,6.68,Po-Tay-To Onion Soup,Sterday
+366,Benni,Edeler,Female,Luncheon,Gladden Fields,30.65,5.12,Bilbo's Tea Cake,Mersday
+367,Egor,Perell,Male,Elevenses,Gladden Fields,8.22,3.61,Strawberry and Banana French Toast,Mersday
+368,Ange,Mundwell,Female,Luncheon,Town,31.07,6.88,Beorn Honey Nut Cake,Trewsday
+369,Antonin,Brymner,Male,Luncheon,The Shire,18.44,5.9,Eggs,Hevensday
+370,Delora,Moodey,Female,Afternoon Tea,Town,26.39,1.7,Beorn Honey Nut Cake,Monday
+371,Jeanne,Dawtry,Female,Second Breakfast,The Shire,8.83,1.43,Bilbo's Tea Cake,Trewsday
+372,Westbrook,Giacobilio,Male,Second Breakfast,Gladden Fields,10.33,5.96,Strawberry and Banana French Toast,Hevensday
+373,Ange,Plinck,Male,Dinner,Town,33.09,8.26,Eggs,Trewsday
+374,Jenilee,Slavin,Female,Afternoon Tea,Town,24.24,1.04,Strawberry and Banana French Toast,Mersday
+375,Colette,Siemantel,Female,Second Breakfast,Gladden Fields,19.07,5.79,Cheesy Garlic Bread Meatball Ring,Hevensday
+376,Jacintha,Scragg,Female,Afternoon Tea,Dragon's Den,31.56,9.82,Bilbo's Tea Cake,Hevensday
+377,Alfredo,Salt,Male,First Breakfast,Dragon's Den,15.07,6.47,Beorn Honey Nut Cake,Hevensday
+378,Filippa,Szymon,Female,Dinner,The Shire,33.95,3.2,Cheesy Garlic Bread Meatball Ring,Hevensday
+379,Robbert,Vel,Male,Dinner,Gladden Fields,31.46,3.76,Eggs,Highday
+380,Darcee,Staresmeare,Female,Second Breakfast,The Shire,16.97,7.13,Po-Tay-To Onion Soup,Trewsday
+381,Roma,Utterson,Male,Dinner,Town,5.18,4.9,Eggs,Hevensday
+382,Chancey,Gerrill,Male,Dinner,Town,20.36,5.95,Cheesy Garlic Bread Meatball Ring,Hevensday
+383,Cchaddie,Casassa,Male,Luncheon,Gladden Fields,29.4,9.79,Eggs,Monday
+384,Garrett,Bootell,Male,Afternoon Tea,Dragon's Den,7.71,4.71,Beorn Honey Nut Cake,Mersday
+385,Rozalin,Newcomen,Female,Supper,Town,11.78,3.01,Cheesy Garlic Bread Meatball Ring,Sunday
+386,Frannie,Spencelayh,Female,Supper,Town,16.13,3.18,Beorn Honey Nut Cake,Hevensday
+387,Hyatt,Selbach,Male,Dinner,Town,22.89,2.68,Beorn Honey Nut Cake,Trewsday
+388,Lil,Triggel,Female,First Breakfast,Dragon's Den,27.34,4.49,Eggs,Mersday
+389,Kissee,Hefforde,Female,Luncheon,Town,16.07,8.16,Bilbo's Tea Cake,Hevensday
+390,Kennett,Towhey,Male,Second Breakfast,Dragon's Den,1.52,8.48,Beorn Honey Nut Cake,Sterday
+391,Audrey,Brockest,Female,Supper,Gladden Fields,34.52,4.55,Po-Tay-To Onion Soup,Monday
+392,Natka,Cowlishaw,Female,Elevenses,The Shire,19.74,6.38,Po-Tay-To Onion Soup,Mersday
+393,Mable,Upchurch,Female,First Breakfast,Gladden Fields,31.02,8.71,Po-Tay-To Onion Soup,Mersday
+394,Anselma,Vasilchikov,Female,Luncheon,Dragon's Den,16.52,2.74,Eggs,Hevensday
+395,Izaak,Idill,Male,Second Breakfast,Dragon's Den,12.5,4.07,Beorn Honey Nut Cake,Hevensday
+396,Willdon,Wildbore,Male,First Breakfast,Dragon's Den,22.12,7.57,Eggs,Trewsday
+397,Annemarie,Bellworthy,Female,Second Breakfast,Dragon's Den,3.25,9.68,Eggs,Mersday
+398,Ernst,Vatcher,Male,Second Breakfast,The Shire,2.17,3.82,Bilbo's Tea Cake,Sunday
+399,Julissa,Sentance,Female,Second Breakfast,The Shire,10.75,5.64,Eggs,Highday
+400,Ambros,Rennels,Male,Afternoon Tea,The Shire,29.93,8.29,Po-Tay-To Onion Soup,Mersday
+401,Jared,Dacres,Male,First Breakfast,The Shire,33.81,4.86,Cheesy Garlic Bread Meatball Ring,Highday
+402,Rosabelle,Hallifax,Female,First Breakfast,Town,27.05,1.69,Bilbo's Tea Cake,Sterday
+403,Darnell,Lovewell,Male,Luncheon,Gladden Fields,27.15,3.53,Strawberry and Banana French Toast,Monday
+404,Nancey,Broster,Female,Second Breakfast,Dragon's Den,19.85,6.33,Eggs,Highday
+405,Cobb,Chillingsworth,Male,Supper,Town,28.75,1.02,Bilbo's Tea Cake,Sterday
+406,Wyatan,McBay,Male,Luncheon,Gladden Fields,15.71,5.49,Beorn Honey Nut Cake,Sterday
+407,Dall,Giovannardi,Male,Supper,Town,16.36,8.09,Strawberry and Banana French Toast,Mersday
+408,Durant,Beagen,Male,Luncheon,The Shire,19.16,1.25,Cheesy Garlic Bread Meatball Ring,Monday
+409,Barbabas,Cardinale,Male,Afternoon Tea,Gladden Fields,28.91,7.96,Beorn Honey Nut Cake,Hevensday
+410,Cary,Tufts,Male,Elevenses,Dragon's Den,10.1,8.52,Po-Tay-To Onion Soup,Mersday
+411,Selena,Baccup,Female,Second Breakfast,Town,9.73,1.92,Beorn Honey Nut Cake,Trewsday
+412,Crosby,Velasquez,Male,Afternoon Tea,The Shire,11.85,9.95,Cheesy Garlic Bread Meatball Ring,Sunday
+413,Gwendolen,Cavee,Female,Supper,Dragon's Den,2.3,2.4,Eggs,Hevensday
+414,Pennie,Klimp,Male,Supper,Gladden Fields,19.2,6.27,Beorn Honey Nut Cake,Mersday
+415,Chloe,Warrilow,Female,Elevenses,Town,25.68,3.96,Po-Tay-To Onion Soup,Mersday
+416,Reagan,Iannello,Male,Dinner,The Shire,22.16,8.29,Beorn Honey Nut Cake,Sterday
+417,Gabi,Colliss,Male,Dinner,Gladden Fields,23.26,3.6,Beorn Honey Nut Cake,Mersday
+418,Johan,Storton,Male,Dinner,Gladden Fields,32.26,4.35,Bilbo's Tea Cake,Highday
+419,Marta,Coventry,Female,Second Breakfast,Dragon's Den,18.25,7.52,Strawberry and Banana French Toast,Hevensday
+420,Nettle,Eccersley,Female,Dinner,The Shire,8.52,3.92,Strawberry and Banana French Toast,Sterday
+421,Silvan,Connor,Male,Second Breakfast,The Shire,27.29,8.32,Strawberry and Banana French Toast,Hevensday
+422,Gregg,Gidley,Male,Elevenses,Dragon's Den,33.48,7.48,Strawberry and Banana French Toast,Highday
+423,Kayne,Gossage,Male,Elevenses,Dragon's Den,23.83,2.6,Po-Tay-To Onion Soup,Sunday
+424,Eran,Clampe,Female,Dinner,Town,3.76,6.12,Eggs,Trewsday
+425,Juditha,Ebenezer,Female,First Breakfast,Town,32.62,3.75,Beorn Honey Nut Cake,Trewsday
+426,Wake,Jeyness,Male,Supper,The Shire,12.01,7.62,Po-Tay-To Onion Soup,Trewsday
+427,Missie,Steuart,Female,Second Breakfast,The Shire,15.51,3.03,Bilbo's Tea Cake,Sunday
+428,Lynne,Braune,Female,Afternoon Tea,Gladden Fields,18.64,2.09,Eggs,Highday
+429,Devy,Tiplady,Male,Second Breakfast,Dragon's Den,1.08,2.03,Beorn Honey Nut Cake,Mersday
+430,Lief,Castaner,Male,Elevenses,The Shire,30.92,1.61,Po-Tay-To Onion Soup,Highday
+431,Denys,Prevett,Male,Elevenses,Dragon's Den,19.46,3.95,Beorn Honey Nut Cake,Sterday
+432,Alfie,Thirst,Female,First Breakfast,The Shire,4.26,4.45,Beorn Honey Nut Cake,Sunday
+433,Eamon,Hartle,Male,Supper,The Shire,24.98,3.92,Bilbo's Tea Cake,Highday
+434,Eben,Font,Male,Supper,Town,32.96,4.25,Strawberry and Banana French Toast,Trewsday
+435,Abbot,McGuire,Male,Afternoon Tea,Dragon's Den,10.54,7.07,Bilbo's Tea Cake,Mersday
+436,Calla,Bushill,Female,Dinner,The Shire,20.46,5.96,Bilbo's Tea Cake,Hevensday
+437,Ewan,Haton,Male,Luncheon,Gladden Fields,23.51,7.33,Eggs,Highday
+438,Isidora,Grandin,Female,Dinner,Dragon's Den,31.92,5.28,Po-Tay-To Onion Soup,Mersday
+439,Cosetta,Heiss,Female,Afternoon Tea,The Shire,14.07,3.57,Po-Tay-To Onion Soup,Mersday
+440,Slade,Pithie,Male,Dinner,Dragon's Den,26.17,2.47,Bilbo's Tea Cake,Sterday
+441,Jeffry,Stoney,Male,First Breakfast,Gladden Fields,9.21,4.16,Bilbo's Tea Cake,Hevensday
+442,Fabien,Klemensiewicz,Male,Luncheon,The Shire,23.06,5.64,Strawberry and Banana French Toast,Sterday
+443,Nefen,Garvey,Male,Dinner,Dragon's Den,11.49,2.69,Strawberry and Banana French Toast,Hevensday
+444,Nada,Gaule,Female,Luncheon,The Shire,7.71,6.21,Beorn Honey Nut Cake,Mersday
+445,Danella,Bigly,Female,Luncheon,Town,20.41,4.16,Eggs,Sunday
+446,Gaye,Pentecost,Female,First Breakfast,Dragon's Den,1.62,5.4,Bilbo's Tea Cake,Mersday
+447,Rupert,Vanlint,Male,Dinner,Dragon's Den,16.21,8.06,Beorn Honey Nut Cake,Hevensday
+448,Denice,Sweetsur,Female,Dinner,Gladden Fields,21.14,1.55,Po-Tay-To Onion Soup,Mersday
+449,Lurlene,Virgo,Female,Luncheon,Town,24.05,3.45,Po-Tay-To Onion Soup,Sunday
+450,Julius,Strauss,Male,First Breakfast,Dragon's Den,14.85,2.93,Cheesy Garlic Bread Meatball Ring,Trewsday
+451,Arne,Hamner,Male,Second Breakfast,Gladden Fields,33.73,9.79,Bilbo's Tea Cake,Highday
+452,Bradan,Prangnell,Male,Second Breakfast,The Shire,22.92,6.11,Beorn Honey Nut Cake,Hevensday
+453,Fergus,Pickavant,Male,Supper,The Shire,11.93,8.52,Strawberry and Banana French Toast,Hevensday
+454,Genna,Seres,Female,Elevenses,Dragon's Den,18.74,9.82,Po-Tay-To Onion Soup,Hevensday
+455,Alaster,Zorzoni,Male,Afternoon Tea,The Shire,25.42,7.27,Eggs,Hevensday
+456,Dougie,Tewelson,Male,Second Breakfast,Town,33.51,2.26,Po-Tay-To Onion Soup,Trewsday
+457,Gregoor,Pimblott,Male,Afternoon Tea,Dragon's Den,23.77,8.05,Strawberry and Banana French Toast,Monday
+458,Bengt,Davidove,Male,First Breakfast,Dragon's Den,19.09,7.04,Cheesy Garlic Bread Meatball Ring,Hevensday
+459,Benetta,Schole,Female,Elevenses,Town,10.29,2.57,Beorn Honey Nut Cake,Monday
+460,Nappie,Sedgmond,Male,First Breakfast,Gladden Fields,2.34,5.33,Cheesy Garlic Bread Meatball Ring,Monday
+461,Corey,Crawshay,Female,Second Breakfast,The Shire,18.34,6.91,Bilbo's Tea Cake,Highday
+462,Tadeas,Woodford,Male,Afternoon Tea,The Shire,8.89,7.75,Eggs,Sterday
+463,Odetta,Fermer,Female,Elevenses,The Shire,2.03,4.36,Po-Tay-To Onion Soup,Monday
+464,Pepito,Minton,Male,Elevenses,Dragon's Den,14.95,2.39,Cheesy Garlic Bread Meatball Ring,Trewsday
+465,Shellysheldon,Arpe,Male,Supper,Dragon's Den,31.27,3.24,Bilbo's Tea Cake,Monday
+466,Hyacintha,Fairholme,Female,Elevenses,Town,9.79,1.6,Po-Tay-To Onion Soup,Highday
+467,Dennie,Freebury,Male,First Breakfast,Gladden Fields,12.21,6.48,Strawberry and Banana French Toast,Hevensday
+468,Oby,Maclaine,Male,Supper,Gladden Fields,6.9,1.23,Beorn Honey Nut Cake,Sterday
+469,Opalina,Hazelby,Female,Supper,Dragon's Den,9.91,8.05,Bilbo's Tea Cake,Monday
+470,Kennedy,Guitel,Male,Afternoon Tea,Town,6.18,3.41,Eggs,Sterday
+471,Jemie,Orridge,Female,Afternoon Tea,Gladden Fields,29.15,3.47,Bilbo's Tea Cake,Sterday
+472,Allen,Brunning,Male,First Breakfast,Dragon's Den,33.06,7.39,Bilbo's Tea Cake,Trewsday
+473,Kathie,Greiswood,Female,Luncheon,The Shire,11.56,9.83,Cheesy Garlic Bread Meatball Ring,Highday
+474,Paul,Zamorano,Male,Luncheon,Dragon's Den,31.81,5.37,Strawberry and Banana French Toast,Mersday
+475,Flynn,Mullane,Male,Elevenses,Gladden Fields,30.51,1.05,Eggs,Highday
+476,Harriott,Pietruszka,Female,Supper,Gladden Fields,32.12,1.82,Eggs,Trewsday
+477,Glynn,Bourke,Male,Luncheon,Dragon's Den,33.12,4.89,Po-Tay-To Onion Soup,Monday
+478,Svend,Reveley,Male,Dinner,Town,15.74,1.4,Eggs,Mersday
+479,Meyer,Blenkensop,Male,Dinner,Town,4.17,2.68,Po-Tay-To Onion Soup,Hevensday
+480,Efren,Mushet,Male,Elevenses,Dragon's Den,20.71,7.21,Bilbo's Tea Cake,Mersday
+481,Felic,Feldheim,Male,Luncheon,Town,17.11,9.25,Bilbo's Tea Cake,Sunday
+482,Audrey,Hanstock,Female,Afternoon Tea,Town,30.39,7.74,Po-Tay-To Onion Soup,Monday
+483,Raynor,Bigglestone,Male,Supper,Dragon's Den,15.66,7.51,Beorn Honey Nut Cake,Highday
+484,Blanche,Linnitt,Female,Second Breakfast,Dragon's Den,34.34,1.66,Cheesy Garlic Bread Meatball Ring,Trewsday
+485,Lanny,Huthart,Male,Luncheon,Town,21.91,2.45,Strawberry and Banana French Toast,Sunday
+486,Chiquia,Lucock,Female,Elevenses,The Shire,7.5,2.57,Eggs,Trewsday
+487,Anselma,Kinsman,Female,Elevenses,Gladden Fields,30.07,1.83,Po-Tay-To Onion Soup,Sunday
+488,Minetta,Wakeley,Female,Supper,Gladden Fields,21.64,9.4,Beorn Honey Nut Cake,Hevensday
+489,Stanfield,Bruyntjes,Male,Elevenses,Town,14.75,7.02,Bilbo's Tea Cake,Trewsday
+490,Orrin,Roelofsen,Male,Elevenses,Dragon's Den,14.53,6.23,Cheesy Garlic Bread Meatball Ring,Sunday
+491,Ephraim,Fabri,Male,Second Breakfast,Gladden Fields,31.26,7.44,Beorn Honey Nut Cake,Monday
+492,Hartley,Caulier,Male,Afternoon Tea,Town,24.07,7.22,Cheesy Garlic Bread Meatball Ring,Sterday
+493,Dav,Trazzi,Male,Luncheon,Dragon's Den,28.75,3.9,Cheesy Garlic Bread Meatball Ring,Sterday
+494,Hillary,Nekrews,Female,Second Breakfast,Gladden Fields,20.29,5.26,Po-Tay-To Onion Soup,Monday
+495,Dew,Beaney,Male,Supper,Town,8.16,7.13,Po-Tay-To Onion Soup,Mersday
+496,Torey,Sayle,Female,Supper,Town,21.28,8.35,Cheesy Garlic Bread Meatball Ring,Monday
+497,Mead,Swan,Male,Second Breakfast,The Shire,21.1,5.09,Cheesy Garlic Bread Meatball Ring,Sunday
+498,Martino,Dorton,Male,Dinner,The Shire,27.6,9.47,Bilbo's Tea Cake,Mersday
+499,Rowena,Tant,Female,First Breakfast,Gladden Fields,12.86,6.36,Bilbo's Tea Cake,Sterday
+500,Taddeo,Dunn,Male,First Breakfast,The Shire,4.8,5.51,Strawberry and Banana French Toast,Hevensday
+501,Geordie,Mingauld,Male,Elevenses,Gladden Fields,29.34,7.74,Cheesy Garlic Bread Meatball Ring,Trewsday
+502,Jere,Spurriar,Male,Luncheon,Town,27.49,6.87,Strawberry and Banana French Toast,Highday
+503,Beale,Bown,Male,Dinner,Town,28.06,1.83,Bilbo's Tea Cake,Monday
+504,Darren,Petrushanko,Male,First Breakfast,Gladden Fields,22.68,5.54,Strawberry and Banana French Toast,Trewsday
+505,Raff,Newbury,Male,First Breakfast,Town,21.76,8.9,Po-Tay-To Onion Soup,Trewsday
+506,Sean,La Croce,Male,Dinner,Dragon's Den,1.79,4.15,Po-Tay-To Onion Soup,Hevensday
+507,Phedra,Sedger,Female,First Breakfast,Town,28.02,1.91,Beorn Honey Nut Cake,Highday
+508,Angelika,Ousby,Female,Supper,Gladden Fields,27.91,3.19,Po-Tay-To Onion Soup,Monday
+509,Skipp,Noel,Male,Afternoon Tea,Gladden Fields,30.11,9.39,Po-Tay-To Onion Soup,Sterday
+510,Frasier,Franc,Male,Dinner,Town,18.76,1.64,Beorn Honey Nut Cake,Trewsday
+511,Maren,Wegener,Female,Afternoon Tea,Dragon's Den,24.85,7.27,Strawberry and Banana French Toast,Mersday
+512,Florence,Giovannetti,Female,Luncheon,Town,13.0,3.23,Beorn Honey Nut Cake,Hevensday
+513,Boot,Priest,Male,Elevenses,Town,27.0,9.83,Strawberry and Banana French Toast,Sunday
+514,Juieta,Telega,Female,Elevenses,Gladden Fields,9.76,5.81,Beorn Honey Nut Cake,Monday
+515,Alisa,Scrace,Female,Second Breakfast,Town,5.17,5.49,Strawberry and Banana French Toast,Sunday
+516,Kincaid,Sarjeant,Male,Afternoon Tea,Gladden Fields,30.77,4.77,Po-Tay-To Onion Soup,Sunday
+517,Lewie,Andino,Male,Luncheon,Gladden Fields,18.29,9.9,Po-Tay-To Onion Soup,Hevensday
+518,Derrik,Grealey,Male,Afternoon Tea,Town,30.56,3.63,Strawberry and Banana French Toast,Trewsday
+519,Shane,MacTimpany,Female,Elevenses,The Shire,29.33,6.8,Strawberry and Banana French Toast,Sunday
+520,Karena,Glasscock,Female,Second Breakfast,The Shire,30.69,1.08,Strawberry and Banana French Toast,Trewsday
+521,Jessey,Hedin,Male,Elevenses,The Shire,1.17,7.5,Po-Tay-To Onion Soup,Mersday
+522,Auroora,Andrysiak,Female,Supper,Dragon's Den,12.47,4.37,Bilbo's Tea Cake,Highday
+523,Audrie,Miner,Female,Luncheon,Dragon's Den,25.82,4.73,Bilbo's Tea Cake,Monday
+524,Hugibert,Faas,Male,Afternoon Tea,The Shire,17.0,7.48,Beorn Honey Nut Cake,Monday
+525,Fee,Bartel,Male,First Breakfast,The Shire,23.75,3.59,Beorn Honey Nut Cake,Trewsday
+526,Ree,Marran,Female,Luncheon,Dragon's Den,27.6,6.75,Po-Tay-To Onion Soup,Trewsday
+527,Dierdre,Cant,Female,First Breakfast,Town,1.65,1.36,Po-Tay-To Onion Soup,Sunday
+528,Norina,Jarrette,Female,Dinner,Dragon's Den,20.16,9.7,Strawberry and Banana French Toast,Mersday
+529,Maxy,Scamaden,Female,Afternoon Tea,Town,15.27,1.33,Beorn Honey Nut Cake,Highday
+530,Westbrook,Lace,Male,Dinner,The Shire,16.25,7.49,Cheesy Garlic Bread Meatball Ring,Sterday
+531,Fancie,Shyres,Female,Dinner,Dragon's Den,22.59,3.75,Strawberry and Banana French Toast,Trewsday
+532,Der,Ayre,Male,First Breakfast,The Shire,16.95,9.05,Beorn Honey Nut Cake,Hevensday
+533,Carlyn,Harmstone,Female,Supper,Dragon's Den,12.73,8.78,Cheesy Garlic Bread Meatball Ring,Mersday
+534,Ambrosius,Sheal,Male,Supper,Dragon's Den,6.53,7.2,Strawberry and Banana French Toast,Hevensday
+535,Riane,Kempster,Female,First Breakfast,Gladden Fields,8.8,1.35,Bilbo's Tea Cake,Trewsday
+536,Cory,Mickan,Male,Second Breakfast,Gladden Fields,12.5,9.8,Po-Tay-To Onion Soup,Hevensday
+537,Roslyn,McKew,Female,First Breakfast,Town,5.86,5.9,Beorn Honey Nut Cake,Highday
+538,Emmerich,Hazard,Male,Second Breakfast,Gladden Fields,34.38,8.09,Cheesy Garlic Bread Meatball Ring,Monday
+539,Benedick,Chavez,Male,Elevenses,Dragon's Den,25.14,9.94,Bilbo's Tea Cake,Trewsday
+540,Armando,Podd,Male,Dinner,Dragon's Den,6.96,1.64,Po-Tay-To Onion Soup,Mersday
+541,Guthry,Cracie,Male,Luncheon,The Shire,3.52,6.33,Beorn Honey Nut Cake,Monday
+542,Evvy,Langstrath,Female,Elevenses,The Shire,3.74,5.92,Po-Tay-To Onion Soup,Hevensday
+543,Valentin,Bellefonte,Male,First Breakfast,Dragon's Den,22.1,8.95,Strawberry and Banana French Toast,Highday
+544,Melania,Neggrini,Female,Dinner,Town,12.32,9.02,Eggs,Monday
+545,Katherina,Coplestone,Female,Supper,The Shire,29.78,4.39,Cheesy Garlic Bread Meatball Ring,Highday
+546,Montague,Sabbins,Male,Luncheon,Dragon's Den,18.93,9.28,Cheesy Garlic Bread Meatball Ring,Sterday
+547,Randie,Siely,Male,Supper,Gladden Fields,23.43,3.88,Beorn Honey Nut Cake,Trewsday
+548,Tymothy,Thunnercliffe,Male,Supper,The Shire,16.03,1.7,Strawberry and Banana French Toast,Hevensday
+549,Loralie,Allchin,Female,Elevenses,The Shire,8.41,5.49,Bilbo's Tea Cake,Sterday
+550,Elenore,Tomasutti,Female,Supper,Town,20.68,5.51,Bilbo's Tea Cake,Mersday
+551,Glynn,Handrahan,Male,Supper,Dragon's Den,34.77,1.52,Eggs,Sterday
+552,Corbet,Glassopp,Male,Afternoon Tea,Dragon's Den,10.65,7.83,Strawberry and Banana French Toast,Hevensday
+553,Chloe,Cunliffe,Female,Second Breakfast,Dragon's Den,18.15,1.37,Cheesy Garlic Bread Meatball Ring,Hevensday
+554,Nikolaus,Danielski,Male,Afternoon Tea,Gladden Fields,24.19,9.65,Beorn Honey Nut Cake,Sunday
+555,Briana,Sline,Female,Elevenses,Dragon's Den,9.4,9.97,Bilbo's Tea Cake,Sunday
+556,Brandise,Urch,Female,Elevenses,Town,27.45,8.41,Beorn Honey Nut Cake,Sterday
+557,Dulcie,Stathers,Female,Second Breakfast,Gladden Fields,20.24,8.69,Cheesy Garlic Bread Meatball Ring,Sterday
+558,Maritsa,Stannus,Female,First Breakfast,Gladden Fields,17.72,3.79,Bilbo's Tea Cake,Highday
+559,Anna,Carpenter,Female,Dinner,The Shire,2.76,5.11,Po-Tay-To Onion Soup,Sunday
+560,Thomasine,Anyon,Female,Dinner,Town,32.63,4.94,Eggs,Highday
+561,Sanderson,Dallow,Male,Afternoon Tea,The Shire,15.82,1.39,Cheesy Garlic Bread Meatball Ring,Highday
+562,Blondelle,Lorryman,Female,Elevenses,The Shire,34.04,7.59,Bilbo's Tea Cake,Monday
+563,Armando,Orchard,Male,Afternoon Tea,Gladden Fields,17.73,5.09,Beorn Honey Nut Cake,Sunday
+564,Bar,Wastall,Male,First Breakfast,Dragon's Den,20.01,9.15,Beorn Honey Nut Cake,Sterday
+565,Moishe,Harbisher,Male,Second Breakfast,Dragon's Den,6.17,8.96,Strawberry and Banana French Toast,Mersday
+566,Graehme,Bambury,Male,Afternoon Tea,Gladden Fields,3.56,8.34,Bilbo's Tea Cake,Trewsday
+567,Farlie,Hansemann,Male,Supper,Town,21.98,6.56,Cheesy Garlic Bread Meatball Ring,Monday
+568,Rubetta,MacKniely,Female,Dinner,The Shire,13.84,1.15,Beorn Honey Nut Cake,Sunday
+569,Alla,Tarbett,Female,Luncheon,Gladden Fields,2.61,4.57,Beorn Honey Nut Cake,Mersday
+570,Joachim,Cassely,Male,Dinner,The Shire,29.83,9.18,Cheesy Garlic Bread Meatball Ring,Sunday
+571,Boy,Murtagh,Male,Supper,Gladden Fields,30.13,1.97,Po-Tay-To Onion Soup,Hevensday
+572,Carlina,Skitt,Female,Afternoon Tea,Town,6.32,1.24,Beorn Honey Nut Cake,Trewsday
+573,Huntley,Towler,Male,Luncheon,The Shire,19.35,5.34,Strawberry and Banana French Toast,Highday
+574,Karlotta,Copson,Female,Dinner,Dragon's Den,21.48,7.55,Po-Tay-To Onion Soup,Sunday
+575,Lonnie,Tibbs,Male,Supper,Gladden Fields,15.22,4.45,Po-Tay-To Onion Soup,Sterday
+576,Kippy,Close,Female,Elevenses,Town,18.09,6.32,Eggs,Hevensday
+577,Kory,Normaville,Male,Second Breakfast,Town,9.92,3.98,Cheesy Garlic Bread Meatball Ring,Monday
+578,Pacorro,Lanceter,Male,Afternoon Tea,Town,2.66,1.65,Eggs,Sunday
+579,Gaby,Dongall,Female,Dinner,Town,12.06,7.76,Bilbo's Tea Cake,Mersday
+580,Klemens,Dacombe,Male,First Breakfast,Town,24.23,1.32,Eggs,Mersday
+581,Lem,Deners,Male,Second Breakfast,Dragon's Den,14.08,1.22,Beorn Honey Nut Cake,Mersday
+582,Mollee,Romney,Female,Dinner,Gladden Fields,24.33,9.45,Beorn Honey Nut Cake,Monday
+583,Meta,Antal,Female,Supper,Dragon's Den,14.43,8.0,Beorn Honey Nut Cake,Highday
+584,Rodger,Caldicott,Male,Second Breakfast,Dragon's Den,12.66,5.51,Strawberry and Banana French Toast,Trewsday
+585,Rhett,Yeudall,Male,Elevenses,Town,29.12,8.78,Eggs,Mersday
+586,Karlyn,Janca,Female,Supper,The Shire,29.31,8.75,Bilbo's Tea Cake,Sunday
+587,Chan,Butler,Male,Elevenses,Gladden Fields,13.05,7.22,Eggs,Sunday
+588,Eadith,Rau,Female,Supper,Gladden Fields,16.05,5.58,Strawberry and Banana French Toast,Sunday
+589,Anabella,Spurryer,Female,First Breakfast,Gladden Fields,34.47,7.69,Strawberry and Banana French Toast,Hevensday
+590,Odo,Doxey,Male,Dinner,Gladden Fields,20.48,3.92,Beorn Honey Nut Cake,Sterday
+591,Leonhard,Bernocchi,Male,First Breakfast,Gladden Fields,19.79,1.37,Beorn Honey Nut Cake,Hevensday
+592,Morten,Cota,Male,Second Breakfast,Town,20.15,3.59,Bilbo's Tea Cake,Mersday
+593,Ruby,Cass,Female,Dinner,Town,20.6,5.58,Po-Tay-To Onion Soup,Monday
+594,Margaretta,Chene,Female,Dinner,Gladden Fields,26.88,3.78,Beorn Honey Nut Cake,Hevensday
+595,Zechariah,Adshad,Male,First Breakfast,The Shire,17.75,7.96,Cheesy Garlic Bread Meatball Ring,Mersday
+596,Tobias,Bragginton,Male,Second Breakfast,Gladden Fields,14.29,8.79,Beorn Honey Nut Cake,Sterday
+597,Julienne,Fishleigh,Female,First Breakfast,The Shire,24.65,3.25,Strawberry and Banana French Toast,Monday
+598,Arleen,Normanville,Female,Afternoon Tea,Gladden Fields,29.88,2.76,Strawberry and Banana French Toast,Mersday
+599,Jasmin,Heifer,Female,Second Breakfast,Dragon's Den,10.22,1.85,Cheesy Garlic Bread Meatball Ring,Sunday
+600,Nathalia,Fortnon,Female,Elevenses,Dragon's Den,28.71,6.14,Bilbo's Tea Cake,Sunday
+601,Artemus,Erwin,Male,Supper,The Shire,8.16,1.33,Bilbo's Tea Cake,Hevensday
+602,Binny,Mariet,Female,First Breakfast,Dragon's Den,10.08,5.02,Beorn Honey Nut Cake,Monday
+603,Cindelyn,Atty,Female,Second Breakfast,Dragon's Den,26.04,7.4,Bilbo's Tea Cake,Monday
+604,Burnard,Birts,Male,Luncheon,Town,32.41,4.63,Po-Tay-To Onion Soup,Monday
+605,Inglis,Fenck,Male,Elevenses,Gladden Fields,25.66,2.16,Cheesy Garlic Bread Meatball Ring,Trewsday
+606,Nobe,Windless,Male,First Breakfast,The Shire,16.47,5.42,Po-Tay-To Onion Soup,Hevensday
+607,Cly,Rape,Male,Afternoon Tea,Town,14.59,2.53,Cheesy Garlic Bread Meatball Ring,Monday
+608,Ruthanne,Doylend,Female,First Breakfast,Gladden Fields,30.55,5.44,Strawberry and Banana French Toast,Hevensday
+609,Giovanna,Jertz,Female,Luncheon,Gladden Fields,24.68,1.36,Strawberry and Banana French Toast,Monday
+610,Dahlia,Webb,Female,Afternoon Tea,Dragon's Den,8.94,1.74,Cheesy Garlic Bread Meatball Ring,Hevensday
+611,Burl,Euplate,Male,First Breakfast,Gladden Fields,20.07,7.62,Eggs,Monday
+612,Ezequiel,Bang,Male,Luncheon,Gladden Fields,14.78,7.36,Bilbo's Tea Cake,Sunday
+613,Elna,Covelle,Female,First Breakfast,Gladden Fields,13.59,7.2,Po-Tay-To Onion Soup,Monday
+614,Guillermo,Piens,Male,Supper,The Shire,31.41,8.45,Cheesy Garlic Bread Meatball Ring,Mersday
+615,Brannon,Illesley,Male,Luncheon,The Shire,26.49,5.55,Beorn Honey Nut Cake,Sterday
+616,Suellen,Capaldo,Female,Elevenses,The Shire,1.09,3.49,Bilbo's Tea Cake,Sterday
+617,Daven,Elman,Male,Supper,Town,22.22,3.2,Beorn Honey Nut Cake,Highday
+618,Cece,Barrar,Male,Elevenses,Town,22.7,1.51,Eggs,Highday
+619,Percy,Kepling,Male,Supper,The Shire,6.89,6.86,Beorn Honey Nut Cake,Trewsday
+620,Margaux,Bolton,Female,Luncheon,Town,24.49,5.05,Strawberry and Banana French Toast,Mersday
+621,Keri,Comben,Female,First Breakfast,Gladden Fields,28.23,7.85,Po-Tay-To Onion Soup,Sterday
+622,Neely,Lively,Female,Afternoon Tea,The Shire,15.81,2.95,Bilbo's Tea Cake,Monday
+623,Nancie,Bly,Female,Dinner,The Shire,12.08,9.86,Bilbo's Tea Cake,Hevensday
+624,Lorry,Giffon,Male,First Breakfast,The Shire,6.5,8.71,Strawberry and Banana French Toast,Sunday
+625,Elset,Switzer,Female,Supper,Dragon's Den,20.24,6.94,Cheesy Garlic Bread Meatball Ring,Sterday
+626,Rube,Northeast,Male,Afternoon Tea,Gladden Fields,4.19,1.4,Eggs,Hevensday
+627,Niko,Heeran,Male,First Breakfast,Dragon's Den,13.75,1.1,Eggs,Trewsday
+628,Angelita,Sauven,Female,Elevenses,Gladden Fields,34.46,1.73,Strawberry and Banana French Toast,Hevensday
+629,Claudian,Pinchen,Male,Afternoon Tea,The Shire,24.92,7.57,Beorn Honey Nut Cake,Monday
+630,Krisha,Riccardo,Male,First Breakfast,Town,3.89,7.31,Strawberry and Banana French Toast,Highday
+631,Bailey,Carbin,Male,Afternoon Tea,Dragon's Den,23.24,2.18,Beorn Honey Nut Cake,Sterday
+632,Waldo,Lushey,Male,Dinner,Dragon's Den,23.82,5.46,Cheesy Garlic Bread Meatball Ring,Highday
+633,Dion,Jephson,Male,Afternoon Tea,Gladden Fields,28.54,5.65,Eggs,Highday
+634,Fifi,Soans,Female,Afternoon Tea,Gladden Fields,16.33,2.85,Po-Tay-To Onion Soup,Hevensday
+635,Raf,Bernardelli,Female,Afternoon Tea,The Shire,30.35,7.83,Beorn Honey Nut Cake,Sunday
+636,Laverne,Yarrall,Female,Dinner,The Shire,16.46,8.97,Po-Tay-To Onion Soup,Sunday
+637,Leelah,Ditch,Female,Supper,Town,27.62,4.41,Bilbo's Tea Cake,Monday
+638,Franni,Daelman,Female,Dinner,Town,19.66,4.48,Cheesy Garlic Bread Meatball Ring,Sunday
+639,Cathryn,Canavan,Female,Supper,The Shire,16.85,6.27,Strawberry and Banana French Toast,Sterday
+640,Marietta,Greenhall,Male,First Breakfast,The Shire,8.24,8.94,Po-Tay-To Onion Soup,Monday
+641,Teodor,Teresse,Male,Luncheon,Dragon's Den,32.93,2.71,Cheesy Garlic Bread Meatball Ring,Highday
+642,Katharine,Crack,Female,Supper,Town,14.07,4.07,Beorn Honey Nut Cake,Sterday
+643,Clemens,Tyson,Male,Dinner,Gladden Fields,5.48,3.39,Bilbo's Tea Cake,Hevensday
+644,Jere,Passie,Female,Elevenses,The Shire,12.48,9.68,Strawberry and Banana French Toast,Hevensday
+645,Florian,Pendre,Male,Supper,The Shire,24.37,7.49,Beorn Honey Nut Cake,Hevensday
+646,Gale,Gladding,Female,Supper,Town,10.77,5.2,Beorn Honey Nut Cake,Mersday
+647,Dalton,Riccardo,Male,Second Breakfast,Dragon's Den,6.7,2.82,Beorn Honey Nut Cake,Hevensday
+648,Hope,Scarsbrick,Female,First Breakfast,Dragon's Den,30.91,6.5,Bilbo's Tea Cake,Mersday
+649,Janela,Skates,Female,First Breakfast,Town,3.58,6.85,Strawberry and Banana French Toast,Trewsday
+650,Beatrisa,Cappleman,Female,Luncheon,Town,8.12,1.35,Cheesy Garlic Bread Meatball Ring,Hevensday
+651,Burt,Snookes,Male,Dinner,The Shire,15.81,3.96,Eggs,Mersday
+652,Bartolemo,Sewill,Male,Afternoon Tea,Dragon's Den,6.97,1.97,Po-Tay-To Onion Soup,Monday
+653,Jule,Riolfi,Male,First Breakfast,Gladden Fields,17.14,7.76,Bilbo's Tea Cake,Mersday
+654,Julita,Aleso,Female,First Breakfast,Town,9.05,3.84,Po-Tay-To Onion Soup,Hevensday
+655,Hoyt,Misk,Male,Elevenses,Dragon's Den,21.75,1.69,Beorn Honey Nut Cake,Mersday
+656,Donn,Heape,Male,First Breakfast,The Shire,23.67,2.88,Po-Tay-To Onion Soup,Mersday
+657,Marcellus,Bargh,Male,Supper,Dragon's Den,8.44,3.61,Bilbo's Tea Cake,Highday
+658,Miof mela,Dillamore,Female,Luncheon,The Shire,2.53,6.11,Po-Tay-To Onion Soup,Sterday
+659,Sayer,Wong,Male,Second Breakfast,Gladden Fields,4.09,1.94,Cheesy Garlic Bread Meatball Ring,Mersday
+660,Shani,Panswick,Female,Second Breakfast,Dragon's Den,10.72,3.75,Eggs,Mersday
+661,Sherwin,Demeza,Male,Dinner,The Shire,25.4,3.83,Strawberry and Banana French Toast,Monday
+662,Demetri,Wilcox,Male,Supper,The Shire,16.13,9.08,Cheesy Garlic Bread Meatball Ring,Hevensday
+663,Ingrid,Prandy,Female,Luncheon,The Shire,16.47,7.76,Po-Tay-To Onion Soup,Mersday
+664,Christie,Light,Male,Second Breakfast,Town,3.47,8.85,Eggs,Trewsday
+665,Ogdon,Maasze,Male,Elevenses,Dragon's Den,2.21,6.39,Po-Tay-To Onion Soup,Hevensday
+666,Jolene,Penwell,Female,Elevenses,Gladden Fields,19.92,5.09,Eggs,Sterday
+667,Cesar,Upson,Male,Elevenses,Gladden Fields,33.08,8.81,Strawberry and Banana French Toast,Mersday
+668,Wileen,Mattam,Female,Elevenses,Gladden Fields,7.1,7.82,Strawberry and Banana French Toast,Trewsday
+669,Huntlee,Christaeas,Male,Afternoon Tea,Town,34.98,4.22,Beorn Honey Nut Cake,Sterday
+670,Lyon,Guerre,Male,Luncheon,Town,4.86,3.99,Po-Tay-To Onion Soup,Monday
+671,Kaitlynn,Duthie,Female,Supper,Gladden Fields,16.03,5.29,Cheesy Garlic Bread Meatball Ring,Monday
+672,Morse,Magor,Male,Afternoon Tea,Gladden Fields,15.37,5.47,Po-Tay-To Onion Soup,Sterday
+673,Bidget,Tuckett,Female,First Breakfast,Gladden Fields,32.24,6.97,Po-Tay-To Onion Soup,Hevensday
+674,Ber,Klainman,Male,Luncheon,The Shire,25.68,1.49,Po-Tay-To Onion Soup,Trewsday
+675,Angeline,Gussie,Female,First Breakfast,Town,29.42,2.72,Strawberry and Banana French Toast,Sunday
+676,Zitella,Backshaw,Female,Elevenses,Dragon's Den,16.56,7.91,Cheesy Garlic Bread Meatball Ring,Sunday
+677,Dyanna,Spottswood,Female,Luncheon,Town,4.2,7.64,Beorn Honey Nut Cake,Trewsday
+678,Sigrid,Vise,Female,First Breakfast,Gladden Fields,25.11,4.54,Po-Tay-To Onion Soup,Hevensday
+679,Felita,Danielski,Female,Supper,Gladden Fields,10.2,1.92,Bilbo's Tea Cake,Monday
+680,Abie,Absolon,Male,First Breakfast,Town,23.88,5.63,Beorn Honey Nut Cake,Trewsday
+681,Lilah,Arro,Female,Second Breakfast,Dragon's Den,23.4,6.86,Eggs,Trewsday
+682,Laughton,Kauble,Male,Elevenses,The Shire,34.67,3.54,Eggs,Sunday
+683,Alys,Buntain,Female,First Breakfast,The Shire,9.05,1.14,Eggs,Hevensday
+684,Allsun,Jina,Female,Afternoon Tea,The Shire,28.65,3.13,Cheesy Garlic Bread Meatball Ring,Sterday
+685,Basil,Gwynne,Male,Dinner,Town,7.52,9.92,Po-Tay-To Onion Soup,Monday
+686,Kort,Willgoose,Male,Dinner,Town,11.46,4.29,Po-Tay-To Onion Soup,Sunday
+687,Cordie,Baversor,Male,Afternoon Tea,Dragon's Den,8.7,6.72,Bilbo's Tea Cake,Mersday
+688,Ralph,Gaymer,Male,Elevenses,Town,3.47,9.28,Beorn Honey Nut Cake,Sunday
+689,Maggy,Radsdale,Female,First Breakfast,Dragon's Den,16.11,5.47,Eggs,Mersday
+690,Marylee,Aplin,Female,Second Breakfast,Dragon's Den,33.93,9.93,Po-Tay-To Onion Soup,Monday
+691,Wanda,Sacker,Female,Elevenses,Dragon's Den,34.41,1.04,Beorn Honey Nut Cake,Trewsday
+692,Dion,Matzke,Female,First Breakfast,Town,14.9,6.47,Po-Tay-To Onion Soup,Highday
+693,Chloette,Paten,Female,Supper,Gladden Fields,29.7,7.47,Po-Tay-To Onion Soup,Sterday
+694,Tomasina,Corbert,Female,Elevenses,The Shire,1.23,6.2,Strawberry and Banana French Toast,Monday
+695,Shandeigh,Ponsford,Female,Luncheon,The Shire,32.04,2.91,Cheesy Garlic Bread Meatball Ring,Highday
+696,Layne,Price,Female,Elevenses,Town,11.89,4.08,Bilbo's Tea Cake,Monday
+697,Reamonn,Waudby,Male,Luncheon,The Shire,17.12,7.37,Strawberry and Banana French Toast,Monday
+698,Roxane,Winfrey,Female,Dinner,Town,8.12,6.17,Cheesy Garlic Bread Meatball Ring,Hevensday
+699,Aigneis,McCormick,Female,Supper,Dragon's Den,18.88,2.97,Strawberry and Banana French Toast,Sterday
+700,Selby,Lenormand,Male,First Breakfast,Town,20.89,8.02,Eggs,Trewsday
+701,Valaree,Mary,Female,Elevenses,Gladden Fields,14.07,2.83,Po-Tay-To Onion Soup,Mersday
+702,Gottfried,Kleinber,Male,Luncheon,The Shire,1.45,5.61,Cheesy Garlic Bread Meatball Ring,Hevensday
+703,Fabian,Mathwin,Male,Second Breakfast,Town,30.01,3.5,Eggs,Trewsday
+704,Lilla,Gladman,Female,First Breakfast,Gladden Fields,7.32,2.58,Bilbo's Tea Cake,Trewsday
+705,Ulric,Kos,Male,First Breakfast,The Shire,29.11,5.51,Strawberry and Banana French Toast,Mersday
+706,Doll,Pescott,Female,Second Breakfast,Dragon's Den,34.58,7.31,Strawberry and Banana French Toast,Trewsday
+707,Ingeborg,Giron,Female,Dinner,Dragon's Den,29.27,1.9,Beorn Honey Nut Cake,Monday
+708,Bridget,Valero,Female,Supper,Gladden Fields,1.49,8.72,Po-Tay-To Onion Soup,Hevensday
+709,Bess,Tomaino,Female,Elevenses,The Shire,12.16,4.89,Po-Tay-To Onion Soup,Mersday
+710,Rubia,Littlefield,Female,First Breakfast,The Shire,18.85,2.78,Po-Tay-To Onion Soup,Highday
+711,Jenn,Klimontovich,Female,Second Breakfast,The Shire,17.32,5.9,Bilbo's Tea Cake,Mersday
+712,Goddart,Booi,Male,Elevenses,The Shire,6.83,9.82,Po-Tay-To Onion Soup,Sterday
+713,Lorens,Beggio,Male,Afternoon Tea,The Shire,17.58,9.37,Cheesy Garlic Bread Meatball Ring,Mersday
+714,Frasier,Looney,Male,Afternoon Tea,Dragon's Den,13.56,1.88,Beorn Honey Nut Cake,Hevensday
+715,Shirlee,Lavrinov,Female,Afternoon Tea,The Shire,33.62,1.4,Eggs,Mersday
+716,Carrol,Gennerich,Male,Supper,Dragon's Den,25.55,1.47,Eggs,Highday
+717,Kenon,Kynd,Male,First Breakfast,The Shire,32.78,5.2,Strawberry and Banana French Toast,Trewsday
+718,Andras,Huish,Male,Afternoon Tea,The Shire,19.35,2.99,Cheesy Garlic Bread Meatball Ring,Highday
+719,Lanni,Harbar,Female,Dinner,The Shire,11.78,3.02,Eggs,Highday
+720,Crichton,Gunson,Male,Dinner,Dragon's Den,27.46,4.93,Bilbo's Tea Cake,Sunday
+721,Hilliard,Olexa,Male,Luncheon,Town,27.51,8.35,Strawberry and Banana French Toast,Trewsday
+722,Petronille,Bartolomeu,Female,Second Breakfast,The Shire,13.72,9.01,Strawberry and Banana French Toast,Monday
+723,Merla,Brandon,Female,Afternoon Tea,Town,17.38,2.79,Strawberry and Banana French Toast,Mersday
+724,Bartholomew,Faucett,Male,Second Breakfast,Gladden Fields,32.2,2.95,Strawberry and Banana French Toast,Hevensday
+725,Pierre,Torresi,Male,Afternoon Tea,Gladden Fields,11.81,8.95,Po-Tay-To Onion Soup,Mersday
+726,Karlie,Stonman,Female,Dinner,The Shire,4.36,8.45,Eggs,Mersday
+727,Dex,Halford,Male,First Breakfast,The Shire,23.88,8.74,Eggs,Trewsday
+728,Ashbey,Boscott,Male,Supper,Dragon's Den,1.51,3.43,Cheesy Garlic Bread Meatball Ring,Hevensday
+729,Harli,Blaver,Female,Elevenses,Gladden Fields,30.71,2.03,Bilbo's Tea Cake,Hevensday
+730,Devland,Stathor,Male,Dinner,The Shire,32.32,4.89,Beorn Honey Nut Cake,Sterday
+731,Richmound,Piddington,Male,Supper,Town,32.98,2.75,Po-Tay-To Onion Soup,Mersday
+732,Gina,Katt,Female,Supper,The Shire,17.36,2.8,Cheesy Garlic Bread Meatball Ring,Monday
+733,Arlin,Wanell,Male,Luncheon,Town,21.08,4.48,Cheesy Garlic Bread Meatball Ring,Mersday
+734,Rosemarie,Allred,Female,Elevenses,Dragon's Den,16.96,9.36,Eggs,Trewsday
+735,Paloma,Fideler,Female,Supper,Town,14.14,8.3,Beorn Honey Nut Cake,Hevensday
+736,Ariela,McCleod,Female,Second Breakfast,Town,20.68,9.24,Po-Tay-To Onion Soup,Mersday
+737,Gerri,Petticrow,Male,Supper,The Shire,23.92,5.82,Cheesy Garlic Bread Meatball Ring,Monday
+738,Kristopher,Coldbathe,Male,Second Breakfast,Gladden Fields,21.28,5.26,Strawberry and Banana French Toast,Monday
+739,Rourke,Tait,Male,First Breakfast,Gladden Fields,17.89,1.68,Bilbo's Tea Cake,Hevensday
+740,Alphonse,Dell,Male,Afternoon Tea,The Shire,22.13,9.84,Bilbo's Tea Cake,Sterday
+741,Jamill,Shaplin,Male,Second Breakfast,The Shire,19.29,7.67,Beorn Honey Nut Cake,Trewsday
+742,Raleigh,O'Daly,Male,Elevenses,Gladden Fields,27.77,2.97,Eggs,Mersday
+743,Minetta,Korejs,Female,Supper,Town,3.24,3.41,Cheesy Garlic Bread Meatball Ring,Sunday
+744,Salome,Lerway,Female,Supper,Town,8.85,9.03,Bilbo's Tea Cake,Highday
+745,Scarlet,Aaron,Female,Elevenses,Town,21.87,6.45,Po-Tay-To Onion Soup,Sterday
+746,Ephrem,Scini,Male,Supper,The Shire,26.09,9.96,Eggs,Highday
+747,Flem,Cornfield,Male,Second Breakfast,Gladden Fields,25.75,6.79,Cheesy Garlic Bread Meatball Ring,Hevensday
+748,Whitaker,Perche,Male,First Breakfast,Dragon's Den,7.97,2.86,Eggs,Mersday
+749,Jewel,Matteotti,Female,Elevenses,Gladden Fields,15.04,8.09,Cheesy Garlic Bread Meatball Ring,Sunday
+750,Luce,Tewnion,Male,Elevenses,Dragon's Den,15.55,7.22,Beorn Honey Nut Cake,Sunday
+751,Monro,Klink,Male,Second Breakfast,Dragon's Den,9.92,5.43,Strawberry and Banana French Toast,Hevensday
+752,Noelani,Fallow,Female,Afternoon Tea,Gladden Fields,16.55,9.7,Eggs,Hevensday
+753,Coop,Eves,Male,Afternoon Tea,Town,21.81,4.2,Cheesy Garlic Bread Meatball Ring,Mersday
+754,Riley,Avrahamof,Male,Luncheon,Dragon's Den,31.14,6.41,Beorn Honey Nut Cake,Sunday
+755,Anthiathia,Chatelet,Female,Supper,Dragon's Den,20.15,8.29,Cheesy Garlic Bread Meatball Ring,Monday
+756,Harper,Jacquet,Male,Supper,Town,16.86,9.44,Beorn Honey Nut Cake,Trewsday
+757,Brianna,Castellaccio,Female,Supper,Gladden Fields,34.21,7.27,Cheesy Garlic Bread Meatball Ring,Hevensday
+758,Tommy,Astall,Female,Supper,The Shire,21.53,4.01,Cheesy Garlic Bread Meatball Ring,Monday
+759,Benson,Bricham,Male,Luncheon,Town,9.04,6.4,Eggs,Sterday
+760,Lucky,Musk,Female,Second Breakfast,Gladden Fields,34.32,6.33,Beorn Honey Nut Cake,Trewsday
+761,Ezri,Pryce,Male,Elevenses,Town,28.09,5.05,Cheesy Garlic Bread Meatball Ring,Monday
+762,Dorisa,Joule,Female,Dinner,The Shire,1.66,1.52,Bilbo's Tea Cake,Mersday
+763,Felisha,Coalburn,Female,Supper,The Shire,11.5,9.56,Cheesy Garlic Bread Meatball Ring,Sterday
+764,Rip,Waring,Male,Second Breakfast,The Shire,34.56,7.79,Strawberry and Banana French Toast,Highday
+765,Mella,McCarter,Female,Elevenses,Dragon's Den,13.88,7.05,Po-Tay-To Onion Soup,Monday
+766,Zechariah,Duxbarry,Male,Second Breakfast,Gladden Fields,2.71,2.67,Strawberry and Banana French Toast,Sunday
+767,Etty,Konert,Female,Supper,Dragon's Den,25.09,9.68,Po-Tay-To Onion Soup,Sunday
+768,Alia,Knibbs,Female,Dinner,Town,13.67,1.87,Strawberry and Banana French Toast,Sterday
+769,Vittorio,de la Valette Parisot,Male,Dinner,Gladden Fields,28.05,2.68,Cheesy Garlic Bread Meatball Ring,Mersday
+770,Ganny,Ellis,Male,First Breakfast,Town,14.87,1.24,Beorn Honey Nut Cake,Sunday
+771,Killian,Alloway,Male,Dinner,Gladden Fields,16.89,6.71,Eggs,Highday
+772,Gran,Winchcombe,Male,Afternoon Tea,Gladden Fields,8.97,6.06,Bilbo's Tea Cake,Highday
+773,Rustin,Skeath,Male,Elevenses,Dragon's Den,18.07,1.73,Bilbo's Tea Cake,Sunday
+774,Shirley,Tuther,Female,Luncheon,Town,7.43,3.83,Beorn Honey Nut Cake,Trewsday
+775,Crichton,Somerset,Male,Dinner,Gladden Fields,21.42,1.22,Cheesy Garlic Bread Meatball Ring,Sterday
+776,Mahmud,Stallworth,Male,Supper,The Shire,18.8,9.21,Strawberry and Banana French Toast,Hevensday
+777,Filmer,McCarrison,Male,Dinner,Dragon's Den,22.5,2.81,Po-Tay-To Onion Soup,Sunday
+778,Bernette,Beagan,Female,Luncheon,The Shire,17.14,6.49,Bilbo's Tea Cake,Mersday
+779,Sadye,Uren,Female,Luncheon,Town,10.23,1.26,Cheesy Garlic Bread Meatball Ring,Mersday
+780,Coraline,Verralls,Female,Luncheon,Town,14.25,9.78,Cheesy Garlic Bread Meatball Ring,Sunday
+781,Alfie,Dabs,Female,Supper,The Shire,22.49,8.17,Eggs,Trewsday
+782,Audra,Labern,Female,Dinner,Gladden Fields,19.93,6.32,Cheesy Garlic Bread Meatball Ring,Sunday
+783,Rebeka,Lambden,Female,Elevenses,Dragon's Den,7.68,5.56,Beorn Honey Nut Cake,Sterday
+784,Randal,Stirrip,Male,Supper,Town,14.34,4.96,Eggs,Hevensday
+785,Lombard,Habberjam,Male,Second Breakfast,Gladden Fields,20.76,5.4,Strawberry and Banana French Toast,Sterday
+786,Emile,Brookes,Male,Afternoon Tea,Town,23.3,9.81,Po-Tay-To Onion Soup,Sterday
+787,Shellysheldon,McAloren,Male,Supper,Gladden Fields,21.76,2.75,Bilbo's Tea Cake,Sunday
+788,Maurine,Treadgall,Female,Dinner,The Shire,32.44,5.43,Bilbo's Tea Cake,Sterday
+789,Morten,Pierse,Male,Second Breakfast,The Shire,1.2,4.09,Beorn Honey Nut Cake,Monday
+790,Marlene,Teeney,Female,Second Breakfast,Town,19.52,4.39,Eggs,Sunday
+791,Alberto,Haberjam,Male,Afternoon Tea,The Shire,19.53,2.67,Cheesy Garlic Bread Meatball Ring,Mersday
+792,Sigmund,Benit,Male,First Breakfast,Town,22.03,8.74,Po-Tay-To Onion Soup,Monday
+793,Heda,Crotch,Female,Afternoon Tea,Town,19.69,9.89,Po-Tay-To Onion Soup,Trewsday
+794,Don,Frankum,Male,First Breakfast,Town,8.4,1.58,Strawberry and Banana French Toast,Sterday
+795,Hermon,Warnes,Male,Supper,Town,27.92,5.35,Strawberry and Banana French Toast,Trewsday
+796,Whittaker,Farfolomeev,Male,Luncheon,Gladden Fields,8.61,1.27,Eggs,Hevensday
+797,Cazzie,Simmonds,Male,Luncheon,Town,33.67,8.17,Cheesy Garlic Bread Meatball Ring,Mersday
+798,Manuel,Gittins,Male,Dinner,Town,8.92,4.13,Po-Tay-To Onion Soup,Hevensday
+799,Alida,Bastick,Female,Supper,Dragon's Den,31.84,8.64,Bilbo's Tea Cake,Hevensday
+800,Codi,Scargill,Male,Dinner,Dragon's Den,19.41,8.74,Po-Tay-To Onion Soup,Sunday
+801,Tamiko,Tanslie,Female,Luncheon,Dragon's Den,13.05,7.51,Strawberry and Banana French Toast,Trewsday
+802,Fairfax,Methuen,Male,Elevenses,Gladden Fields,15.91,9.59,Cheesy Garlic Bread Meatball Ring,Sunday
+803,Florida,Lever,Female,Luncheon,Dragon's Den,7.17,3.77,Strawberry and Banana French Toast,Mersday
+804,Tynan,Rubin,Male,Elevenses,Town,31.55,2.71,Po-Tay-To Onion Soup,Trewsday
+805,Tildi,Pattenden,Female,Dinner,Town,32.58,1.47,Strawberry and Banana French Toast,Trewsday
+806,Sally,Cadden,Female,Supper,Dragon's Den,12.96,2.04,Beorn Honey Nut Cake,Highday
+807,Meridel,Southby,Female,First Breakfast,Gladden Fields,14.28,6.07,Eggs,Highday
+808,Boot,Schubuser,Male,Dinner,Town,28.47,9.13,Eggs,Mersday
+809,Gabi,Waskett,Male,Afternoon Tea,Town,17.91,3.09,Strawberry and Banana French Toast,Mersday
+810,Stevy,Hovert,Male,Dinner,Town,27.32,1.63,Po-Tay-To Onion Soup,Trewsday
+811,Roddie,Binham,Male,Elevenses,Dragon's Den,32.4,8.71,Cheesy Garlic Bread Meatball Ring,Trewsday
+812,Eduino,Girk,Male,First Breakfast,Town,15.41,9.21,Strawberry and Banana French Toast,Hevensday
+813,Lonee,Yalden,Female,Dinner,Town,27.78,6.65,Beorn Honey Nut Cake,Monday
+814,Morganica,Bradmore,Female,First Breakfast,The Shire,5.1,1.57,Beorn Honey Nut Cake,Sunday
+815,Ronalda,Merredy,Female,First Breakfast,Gladden Fields,1.02,4.78,Po-Tay-To Onion Soup,Hevensday
+816,Edmon,Stilgo,Male,Second Breakfast,Town,2.29,7.89,Bilbo's Tea Cake,Monday
+817,Roby,Noddle,Female,Afternoon Tea,Town,28.49,8.81,Eggs,Sunday
+818,Ysabel,Rexworthy,Female,First Breakfast,Dragon's Den,32.69,8.57,Strawberry and Banana French Toast,Sterday
+819,Kerk,Yurenev,Male,First Breakfast,Dragon's Den,6.1,9.79,Bilbo's Tea Cake,Mersday
+820,Wynnie,Ariss,Female,Elevenses,The Shire,17.7,3.88,Beorn Honey Nut Cake,Trewsday
+821,Reube,Prover,Male,Supper,Town,29.28,3.5,Bilbo's Tea Cake,Sterday
+822,Katy,Gauthorpp,Female,Supper,Gladden Fields,22.21,2.6,Po-Tay-To Onion Soup,Sunday
+823,Gibb,Highwood,Male,First Breakfast,Town,3.62,7.58,Bilbo's Tea Cake,Hevensday
+824,Benny,Willicott,Male,Afternoon Tea,The Shire,18.88,9.37,Bilbo's Tea Cake,Sterday
+825,Marty,Unitt,Male,Luncheon,Town,5.18,3.49,Beorn Honey Nut Cake,Mersday
+826,Christopher,Pavie,Male,Elevenses,Gladden Fields,17.54,2.97,Po-Tay-To Onion Soup,Highday
+827,Audie,Whittek,Female,Afternoon Tea,Town,21.84,4.39,Po-Tay-To Onion Soup,Hevensday
+828,Gearalt,Mc Caughan,Male,Supper,Dragon's Den,20.55,3.68,Cheesy Garlic Bread Meatball Ring,Trewsday
+829,Cayla,Mahody,Female,Supper,Dragon's Den,5.35,3.92,Strawberry and Banana French Toast,Highday
+830,Emilie,Goede,Female,Dinner,Town,24.63,3.48,Strawberry and Banana French Toast,Sterday
+831,Lianna,Masedon,Female,Luncheon,Dragon's Den,10.58,3.19,Po-Tay-To Onion Soup,Sterday
+832,Silvanus,Cafe,Male,Elevenses,Gladden Fields,17.8,4.72,Bilbo's Tea Cake,Sterday
+833,Reinold,Thresher,Male,Afternoon Tea,Gladden Fields,16.13,5.34,Cheesy Garlic Bread Meatball Ring,Mersday
+834,Giuseppe,Lardiner,Male,First Breakfast,Town,23.72,7.49,Cheesy Garlic Bread Meatball Ring,Sunday
+835,Welsh,MacVicar,Male,Elevenses,Gladden Fields,30.38,5.91,Bilbo's Tea Cake,Highday
+836,Bunni,Stoggles,Female,Afternoon Tea,The Shire,20.39,5.81,Eggs,Trewsday
+837,Corette,Hovell,Female,Afternoon Tea,Dragon's Den,8.29,1.11,Po-Tay-To Onion Soup,Hevensday
+838,Alfons,Bridger,Male,First Breakfast,Gladden Fields,17.17,3.2,Eggs,Sunday
+839,Fara,Sawtell,Female,Luncheon,Dragon's Den,17.57,6.1,Beorn Honey Nut Cake,Mersday
+840,Agosto,Barff,Male,Afternoon Tea,Dragon's Den,14.93,3.23,Bilbo's Tea Cake,Mersday
+841,Rouvin,Suddell,Male,Dinner,Gladden Fields,13.0,8.31,Bilbo's Tea Cake,Mersday
+842,Adelind,Ayling,Female,Luncheon,Town,33.4,1.45,Bilbo's Tea Cake,Trewsday
+843,Candy,Boyes,Female,Afternoon Tea,Dragon's Den,5.08,4.7,Strawberry and Banana French Toast,Sterday
+844,Tracie,Ingham,Female,Supper,The Shire,28.54,8.2,Bilbo's Tea Cake,Sterday
+845,Marlow,Buxsey,Male,First Breakfast,Dragon's Den,8.12,6.21,Eggs,Sterday
+846,Toni,Champley,Female,Supper,Gladden Fields,10.4,9.42,Strawberry and Banana French Toast,Sunday
+847,Linell,Kinzel,Female,Supper,Town,34.51,4.54,Beorn Honey Nut Cake,Highday
+848,Burt,Labet,Male,Afternoon Tea,Town,23.44,6.65,Strawberry and Banana French Toast,Highday
+849,Farr,Cleveland,Male,Afternoon Tea,Dragon's Den,11.91,4.13,Eggs,Monday
+850,Ryley,Swadden,Male,Supper,Town,10.8,9.06,Beorn Honey Nut Cake,Sunday
+851,Sisely,Tuny,Female,Second Breakfast,The Shire,32.82,3.35,Eggs,Hevensday
+852,Hewet,Chaves,Male,Second Breakfast,Gladden Fields,1.68,2.6,Bilbo's Tea Cake,Trewsday
+853,Terry,Nutbeam,Female,Second Breakfast,The Shire,14.18,3.56,Cheesy Garlic Bread Meatball Ring,Sterday
+854,Chad,Hetterich,Female,Second Breakfast,The Shire,15.22,4.61,Cheesy Garlic Bread Meatball Ring,Hevensday
+855,Court,McGettigan,Male,Elevenses,The Shire,5.58,1.53,Strawberry and Banana French Toast,Trewsday
+856,Marigold,Bollom,Female,Afternoon Tea,Dragon's Den,14.23,1.68,Eggs,Monday
+857,Abe,Winchester,Male,Elevenses,Dragon's Den,32.26,5.9,Cheesy Garlic Bread Meatball Ring,Mersday
+858,Jessika,Vicar,Female,Afternoon Tea,Dragon's Den,29.65,6.68,Eggs,Monday
+859,Jamison,Ebbins,Male,Elevenses,Dragon's Den,31.68,9.92,Eggs,Sunday
+860,Sidney,Garfath,Male,First Breakfast,Dragon's Den,20.23,1.78,Strawberry and Banana French Toast,Trewsday
+861,Rafe,Eneas,Male,Elevenses,The Shire,16.02,1.64,Po-Tay-To Onion Soup,Monday
+862,Gloriane,Gason,Female,Luncheon,The Shire,4.3,1.21,Beorn Honey Nut Cake,Trewsday
+863,Gabby,Avramovsky,Male,First Breakfast,Gladden Fields,1.24,2.19,Cheesy Garlic Bread Meatball Ring,Trewsday
+864,Eveleen,Laroux,Female,Luncheon,Gladden Fields,12.62,5.3,Eggs,Monday
+865,Gilberte,Giacopetti,Female,Luncheon,Town,23.77,5.06,Po-Tay-To Onion Soup,Mersday
+866,Auberta,Artingstall,Female,Supper,Gladden Fields,28.77,2.08,Po-Tay-To Onion Soup,Hevensday
+867,Hershel,Parvin,Male,Elevenses,Gladden Fields,20.26,4.17,Po-Tay-To Onion Soup,Mersday
+868,Ardith,Jaquest,Female,Elevenses,Gladden Fields,13.31,8.27,Strawberry and Banana French Toast,Sunday
+869,Ceil,Kerrigan,Female,Luncheon,Town,3.49,7.97,Cheesy Garlic Bread Meatball Ring,Trewsday
+870,Amie,Grass,Female,First Breakfast,Dragon's Den,20.15,1.37,Bilbo's Tea Cake,Mersday
+871,Hamish,Betts,Male,Elevenses,Gladden Fields,4.85,2.9,Po-Tay-To Onion Soup,Highday
+872,Erny,Stern,Male,Supper,Gladden Fields,3.37,9.14,Bilbo's Tea Cake,Sterday
+873,Norina,Tierny,Female,Dinner,Town,4.4,3.49,Po-Tay-To Onion Soup,Trewsday
+874,Crosby,Galbraith,Male,First Breakfast,The Shire,4.4,4.26,Po-Tay-To Onion Soup,Hevensday
+875,Velma,Playhill,Female,Supper,Town,21.71,9.89,Eggs,Mersday
+876,Robbyn,Cadwaladr,Female,Supper,The Shire,23.39,7.73,Beorn Honey Nut Cake,Trewsday
+877,Angie,Tosdevin,Male,Luncheon,Dragon's Den,1.37,2.77,Beorn Honey Nut Cake,Sterday
+878,Adolphus,Pontin,Male,Afternoon Tea,Dragon's Den,1.69,1.36,Strawberry and Banana French Toast,Mersday
+879,Maryrose,Filgate,Female,Elevenses,Gladden Fields,34.69,5.67,Strawberry and Banana French Toast,Hevensday
+880,Laurice,Casper,Female,Afternoon Tea,The Shire,32.03,1.97,Strawberry and Banana French Toast,Highday
+881,Joelle,Gosby,Female,Dinner,Dragon's Den,27.13,2.7,Eggs,Sunday
+882,Ana,Dummigan,Female,Supper,The Shire,27.79,9.49,Beorn Honey Nut Cake,Hevensday
+883,Ellerey,Lockart,Male,Luncheon,The Shire,12.6,3.11,Bilbo's Tea Cake,Sterday
+884,Veronika,Mocker,Female,Luncheon,Gladden Fields,12.36,2.34,Eggs,Sterday
+885,Marc,Josling,Male,Dinner,Gladden Fields,12.8,4.97,Strawberry and Banana French Toast,Sunday
+886,Sapphire,Seaking,Female,Supper,Gladden Fields,27.6,1.44,Eggs,Trewsday
+887,Cheslie,Tabourel,Female,Second Breakfast,The Shire,23.63,8.89,Beorn Honey Nut Cake,Trewsday
+888,Augusta,Loney,Female,First Breakfast,Dragon's Den,19.8,3.19,Bilbo's Tea Cake,Highday
+889,Glen,Beavon,Male,First Breakfast,Gladden Fields,23.86,5.39,Bilbo's Tea Cake,Trewsday
+890,Maje,Say,Male,Dinner,Gladden Fields,31.26,3.94,Strawberry and Banana French Toast,Highday
+891,Annalise,Lanfranconi,Female,Luncheon,Gladden Fields,23.99,6.06,Strawberry and Banana French Toast,Highday
+892,Sarena,Griffithe,Female,Afternoon Tea,Gladden Fields,13.46,8.92,Cheesy Garlic Bread Meatball Ring,Sterday
+893,Bel,Allflatt,Female,Elevenses,Dragon's Den,5.92,3.07,Cheesy Garlic Bread Meatball Ring,Sterday
+894,Fernande,Ganforth,Female,Luncheon,Dragon's Den,2.12,6.73,Beorn Honey Nut Cake,Mersday
+895,Artur,Haitlie,Male,First Breakfast,The Shire,22.98,8.76,Bilbo's Tea Cake,Hevensday
+896,Obadiah,Asman,Male,Luncheon,The Shire,6.13,6.94,Bilbo's Tea Cake,Sunday
+897,Krishna,Greatham,Male,Elevenses,Dragon's Den,25.88,3.96,Strawberry and Banana French Toast,Trewsday
+898,Boy,Van Driel,Male,First Breakfast,The Shire,4.62,4.31,Po-Tay-To Onion Soup,Highday
+899,Edy,Smead,Female,Luncheon,Dragon's Den,6.66,4.0,Strawberry and Banana French Toast,Highday
+900,Gustie,Lermouth,Female,First Breakfast,Dragon's Den,13.36,2.6,Bilbo's Tea Cake,Sunday
+901,Chelsea,Blouet,Female,Luncheon,The Shire,32.7,5.11,Beorn Honey Nut Cake,Hevensday
+902,Madlin,Booley,Female,Elevenses,Gladden Fields,19.11,7.24,Bilbo's Tea Cake,Highday
+903,Merilyn,Fullerton,Female,Luncheon,Gladden Fields,19.42,2.54,Eggs,Sterday
+904,Tynan,Dursley,Male,First Breakfast,The Shire,9.15,7.83,Bilbo's Tea Cake,Monday
+905,Aldrich,Darrell,Male,Dinner,Dragon's Den,23.03,1.63,Strawberry and Banana French Toast,Monday
+906,Mandy,Waine,Female,Elevenses,The Shire,23.61,4.38,Po-Tay-To Onion Soup,Monday
+907,Win,Kiddye,Male,Supper,Gladden Fields,26.88,5.19,Beorn Honey Nut Cake,Highday
+908,Rosie,Ingley,Female,Elevenses,The Shire,33.18,5.96,Beorn Honey Nut Cake,Sterday
+909,Melamie,Ciciari,Female,Elevenses,The Shire,6.93,8.78,Eggs,Mersday
+910,Regen,Arnaldo,Male,Luncheon,The Shire,16.14,2.25,Strawberry and Banana French Toast,Hevensday
+911,Levi,Dowyer,Male,Supper,Town,25.82,8.57,Cheesy Garlic Bread Meatball Ring,Trewsday
+912,Elita,Lovie,Female,Supper,Town,20.19,9.34,Po-Tay-To Onion Soup,Trewsday
+913,Murdoch,Neeve,Male,Supper,The Shire,13.19,7.37,Strawberry and Banana French Toast,Hevensday
+914,Jacquelin,Goodswen,Female,First Breakfast,The Shire,12.81,3.34,Strawberry and Banana French Toast,Trewsday
+915,Lindy,Karle,Male,Elevenses,The Shire,8.56,5.56,Beorn Honey Nut Cake,Sunday
+916,Binky,Tinsley,Male,Afternoon Tea,Dragon's Den,32.09,9.36,Strawberry and Banana French Toast,Hevensday
+917,Doyle,Chazelas,Male,Second Breakfast,Dragon's Den,14.65,7.26,Cheesy Garlic Bread Meatball Ring,Hevensday
+918,Lon,Paddell,Male,Luncheon,Town,3.62,1.88,Strawberry and Banana French Toast,Trewsday
+919,Boot,Boughton,Male,Luncheon,The Shire,4.14,1.59,Beorn Honey Nut Cake,Trewsday
+920,Codie,Ganderton,Male,Elevenses,The Shire,31.64,1.16,Beorn Honey Nut Cake,Highday
+921,Orrin,Kesten,Male,Dinner,Dragon's Den,4.32,1.98,Beorn Honey Nut Cake,Sterday
+922,Colleen,Muress,Female,Supper,Dragon's Den,16.49,7.42,Cheesy Garlic Bread Meatball Ring,Hevensday
+923,Lezlie,De Bischop,Female,Supper,Town,31.67,5.68,Strawberry and Banana French Toast,Monday
+924,Mel,MacMoyer,Male,Second Breakfast,Dragon's Den,12.83,7.22,Bilbo's Tea Cake,Hevensday
+925,Marilyn,Hugill,Female,First Breakfast,The Shire,26.54,3.7,Strawberry and Banana French Toast,Trewsday
+926,Jarvis,Duguid,Male,Second Breakfast,The Shire,8.55,2.38,Beorn Honey Nut Cake,Trewsday
+927,Susette,Kearn,Female,Elevenses,Gladden Fields,24.08,8.2,Beorn Honey Nut Cake,Sunday
+928,Mollie,Portman,Female,Dinner,The Shire,24.74,2.61,Beorn Honey Nut Cake,Hevensday
+929,Wendall,Scaife,Male,Elevenses,Gladden Fields,3.52,6.98,Strawberry and Banana French Toast,Hevensday
+930,Chrysler,Chawkley,Female,Second Breakfast,Dragon's Den,17.55,4.05,Cheesy Garlic Bread Meatball Ring,Trewsday
+931,Ripley,Doodson,Male,Second Breakfast,Town,11.63,1.91,Strawberry and Banana French Toast,Sterday
+932,Ardath,Laydel,Female,Supper,Gladden Fields,6.89,7.45,Bilbo's Tea Cake,Sunday
+933,Oran,Haslin,Male,First Breakfast,Dragon's Den,10.65,9.5,Eggs,Sterday
+934,Jaquenetta,Illiston,Female,Afternoon Tea,The Shire,22.39,2.56,Strawberry and Banana French Toast,Hevensday
+935,Abramo,Haward,Male,First Breakfast,Dragon's Den,33.2,8.23,Cheesy Garlic Bread Meatball Ring,Sunday
+936,Yevette,Asch,Female,Luncheon,The Shire,34.32,9.36,Po-Tay-To Onion Soup,Hevensday
+937,Clarabelle,Dailey,Female,Luncheon,Gladden Fields,22.98,6.0,Po-Tay-To Onion Soup,Highday
+938,Martyn,Hovard,Male,Elevenses,The Shire,1.6,7.91,Beorn Honey Nut Cake,Mersday
+939,Verne,Jacobsohn,Male,Supper,Gladden Fields,21.32,2.24,Cheesy Garlic Bread Meatball Ring,Trewsday
+940,Karlee,Ragat,Female,First Breakfast,The Shire,2.15,1.09,Eggs,Mersday
+941,Philbert,Izakovitz,Male,Afternoon Tea,Dragon's Den,22.48,7.04,Eggs,Sterday
+942,Rudolf,Pylkynyton,Male,First Breakfast,The Shire,34.46,9.45,Bilbo's Tea Cake,Sunday
+943,Evita,Scranney,Female,Dinner,Town,15.94,1.09,Eggs,Sunday
+944,Christel,Gallimore,Female,First Breakfast,The Shire,8.1,3.13,Po-Tay-To Onion Soup,Monday
+945,Hale,Longrigg,Male,First Breakfast,Dragon's Den,29.67,3.07,Cheesy Garlic Bread Meatball Ring,Monday
+946,Katina,Guenther,Female,Second Breakfast,The Shire,28.21,2.27,Cheesy Garlic Bread Meatball Ring,Trewsday
+947,Emmi,Adnett,Female,Dinner,Dragon's Den,12.13,8.49,Beorn Honey Nut Cake,Trewsday
+948,Latisha,Letty,Female,First Breakfast,Gladden Fields,10.87,2.56,Beorn Honey Nut Cake,Highday
+949,Consuelo,Goldsworthy,Female,Second Breakfast,Dragon's Den,13.9,5.92,Eggs,Mersday
+950,Shelby,Treweela,Female,Elevenses,Gladden Fields,8.94,1.96,Bilbo's Tea Cake,Monday
+951,Lorilee,Carnier,Female,Afternoon Tea,Town,30.3,7.22,Eggs,Trewsday
+952,Averil,Gullane,Male,Dinner,Dragon's Den,29.88,9.2,Strawberry and Banana French Toast,Highday
+953,Leighton,Dymocke,Male,Second Breakfast,Town,14.01,5.36,Eggs,Highday
+954,Julissa,Haresnaip,Female,Afternoon Tea,The Shire,27.08,3.47,Cheesy Garlic Bread Meatball Ring,Hevensday
+955,Mick,Giacaponi,Male,Elevenses,Gladden Fields,12.95,1.37,Strawberry and Banana French Toast,Sterday
+956,Rhys,Hegdonne,Male,Supper,Dragon's Den,10.19,1.18,Strawberry and Banana French Toast,Sunday
+957,Kippy,Tayt,Female,Dinner,Gladden Fields,31.92,1.9,Bilbo's Tea Cake,Trewsday
+958,Jaymie,Jolin,Male,Luncheon,Dragon's Den,9.64,7.15,Beorn Honey Nut Cake,Sterday
+959,Jemima,Lindop,Female,Elevenses,Gladden Fields,25.17,6.66,Bilbo's Tea Cake,Sterday
+960,Ertha,Rodder,Female,Second Breakfast,Gladden Fields,4.99,6.53,Bilbo's Tea Cake,Hevensday
+961,Lynnette,Beagles,Female,Elevenses,Gladden Fields,27.92,8.9,Eggs,Hevensday
+962,Lethia,Audus,Female,Second Breakfast,Dragon's Den,29.71,8.82,Strawberry and Banana French Toast,Highday
+963,Marrissa,Friel,Female,Dinner,Gladden Fields,13.82,7.15,Po-Tay-To Onion Soup,Sterday
+964,Boniface,Pettigree,Male,Elevenses,Gladden Fields,29.63,8.35,Bilbo's Tea Cake,Trewsday
+965,Rufe,Plumbe,Male,First Breakfast,Gladden Fields,6.9,3.34,Po-Tay-To Onion Soup,Hevensday
+966,Emylee,Millen,Female,First Breakfast,The Shire,32.42,9.72,Po-Tay-To Onion Soup,Mersday
+967,Valeda,Troak,Female,Elevenses,Dragon's Den,26.11,3.22,Eggs,Sterday
+968,Alice,Jakubovics,Female,Second Breakfast,Gladden Fields,11.62,1.1,Eggs,Highday
+969,Haroun,MacScherie,Male,Elevenses,Town,3.83,7.4,Beorn Honey Nut Cake,Sterday
+970,Morley,Holby,Male,Luncheon,The Shire,9.43,5.78,Bilbo's Tea Cake,Sunday
+971,Carmon,Zellner,Female,Dinner,Town,23.16,2.48,Bilbo's Tea Cake,Trewsday
+972,Deborah,Pithie,Female,Second Breakfast,Town,13.68,5.77,Strawberry and Banana French Toast,Trewsday
+973,Justen,Giametti,Male,Supper,Town,34.12,9.35,Bilbo's Tea Cake,Highday
+974,Liz,Owtram,Female,Second Breakfast,Town,13.72,4.28,Po-Tay-To Onion Soup,Monday
+975,Wolfgang,Macek,Male,Afternoon Tea,Gladden Fields,2.93,4.09,Eggs,Hevensday
+976,Penni,Rielly,Female,Second Breakfast,Town,30.27,5.13,Cheesy Garlic Bread Meatball Ring,Hevensday
+977,Marcel,Pelz,Male,Luncheon,Gladden Fields,13.43,4.1,Cheesy Garlic Bread Meatball Ring,Mersday
+978,Bride,Yakutin,Female,Afternoon Tea,Dragon's Den,17.43,9.23,Cheesy Garlic Bread Meatball Ring,Trewsday
+979,Clerissa,Normaville,Female,Dinner,Town,4.53,3.16,Bilbo's Tea Cake,Sunday
+980,Farra,Kestin,Female,First Breakfast,Dragon's Den,22.24,7.33,Bilbo's Tea Cake,Sunday
+981,Bonita,Merrall,Female,Dinner,The Shire,18.21,3.4,Cheesy Garlic Bread Meatball Ring,Hevensday
+982,Emmaline,Kinig,Female,Elevenses,Gladden Fields,27.67,1.42,Strawberry and Banana French Toast,Mersday
+983,Aveline,Message,Female,Luncheon,Gladden Fields,18.09,9.15,Strawberry and Banana French Toast,Highday
+984,Leslie,Tidbold,Female,Afternoon Tea,Dragon's Den,24.81,7.31,Beorn Honey Nut Cake,Mersday
+985,Gail,Moakler,Female,Afternoon Tea,Gladden Fields,2.39,9.49,Eggs,Mersday
+986,Ogdan,Mallard,Male,Afternoon Tea,Gladden Fields,34.55,2.42,Po-Tay-To Onion Soup,Sunday
+987,Markos,Bignell,Male,First Breakfast,Dragon's Den,32.25,8.45,Po-Tay-To Onion Soup,Trewsday
+988,Olivia,Siddell,Female,Dinner,Dragon's Den,19.95,7.83,Cheesy Garlic Bread Meatball Ring,Sunday
+989,Dionysus,Pibworth,Male,Second Breakfast,Gladden Fields,6.42,6.37,Bilbo's Tea Cake,Monday
+990,Kristel,Bampkin,Female,First Breakfast,Gladden Fields,13.85,9.17,Eggs,Hevensday
+991,Salomo,Brisbane,Male,Second Breakfast,Dragon's Den,29.54,8.45,Cheesy Garlic Bread Meatball Ring,Hevensday
+992,Farly,Rountree,Male,Second Breakfast,The Shire,11.55,8.02,Cheesy Garlic Bread Meatball Ring,Sunday
+993,Ike,Prewett,Male,Elevenses,Dragon's Den,31.1,6.44,Cheesy Garlic Bread Meatball Ring,Sunday
+994,Arie,Mecco,Male,Luncheon,The Shire,9.34,2.47,Cheesy Garlic Bread Meatball Ring,Sterday
+995,Cathrine,Revance,Female,Dinner,Town,5.44,9.44,Beorn Honey Nut Cake,Trewsday
+996,Mendel,Yanshonok,Male,Second Breakfast,Town,16.57,5.5,Strawberry and Banana French Toast,Trewsday
+997,Fransisco,Titchen,Male,Afternoon Tea,Gladden Fields,29.2,7.08,Cheesy Garlic Bread Meatball Ring,Mersday
+998,Kit,Masters,Female,Afternoon Tea,The Shire,14.43,4.34,Beorn Honey Nut Cake,Trewsday
+999,Sileas,Gillatt,Female,Luncheon,Gladden Fields,16.64,7.73,Cheesy Garlic Bread Meatball Ring,Trewsday
+1000,Onfre,Harriot,Male,Second Breakfast,Town,9.69,5.73,Eggs,Sterday

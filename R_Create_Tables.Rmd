@@ -57,3 +57,17 @@ head(dat_csv)
 head(dat_csv2)
 head(dat_csv3)
 ```
+
+#Create an animated plot
+
+```{r}
+theme_set(theme_ss)
+
+scat_plot <- ggplot(dat_csv3, aes(x=turnout_score, y=ev_score, fill=demo_sex))
+scat_plot
+
+scat_plot + geom_point(aes(colour=demo_sex)) + theme_ss + 
+  scale_colour_manual(values=colors_emerald_contrast)
+
+```
+

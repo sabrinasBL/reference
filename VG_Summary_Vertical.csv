@@ -1,0 +1,25 @@
+Year,Account,Total,Category
+2015,401k,70000,Pre-Tax
+2016,401k,90000,Pre-Tax
+2017,401k,110000,Pre-Tax
+2018,401k,130000,Pre-Tax
+2015,IRA,0,Pre-Tax
+2016,IRA,77000,Pre-Tax
+2017,IRA,80000,Pre-Tax
+2018,IRA,80000,Pre-Tax
+2015,Roth IRA,15000,Roth
+2016,Roth IRA,20500,Roth
+2017,Roth IRA,26000,Roth
+2018,Roth IRA,31500,Roth
+2015,Checking,15000,Cash
+2016,Checking,10000,Cash
+2017,Checking,6000,Cash
+2018,Checking,7000,Cash
+2015,Savings,10000,Cash
+2016,Savings,2000,Cash
+2017,Savings,2000,Cash
+2018,Savings,200,Cash
+2015,Brokerage,126745,Taxable
+2016,Brokerage,216265,Taxable
+2017,Brokerage,361809,Taxable
+2018,Brokerage,338202,Taxable

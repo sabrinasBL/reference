@@ -1,3 +1,4 @@
+install.packages("gganimate")
 library(fmsb)
 
 #Reference

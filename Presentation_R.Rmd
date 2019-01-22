@@ -30,6 +30,7 @@ dat <- data.frame(
 ```{r}
 # view dataframe contents
 dat
+
 # view first 4 rows in dataframe
 head(dat,4)
 # view last 11 rows in dataframe
@@ -148,13 +149,15 @@ bchart +
 
 ### Make a stacked bar chart: make the fill a categorial variable that is NOT the x-axis
 ```{r}
-ggplot(data=dat_csv3, aes(x=state, y=turnout_score, fill=demo_sex))+
+bar_sex <- ggplot(data=dat_csv3, aes(x=state, y=turnout_score, fill=demo_sex))+
   geom_bar(stat="identity") + theme_ss
 
 #Customize the fill colors
-ggplot(data=dat_csv3, aes(x=state, y=turnout_score, fill=demo_sex))+
-  geom_bar(stat="identity") + theme_ss +
+bar_sex +
   scale_fill_manual(values=c(colors_emerald_contrast[1],colors_emerald_contrast[3]))
+
+#customize the labels
+bar_sex + labs(fill = "Sex", x = "State", y="Turnout Score", title = "Turnout by Sex")
 ```
 
 ### Make a stacked bar chart that stretches to 100% always
@@ -207,12 +210,54 @@ scat_plot + geom_point() + theme_ss
 scat_plot + geom_point(color=colors_ss[1]) + theme_ss
 
 # make dots different colors based on gender
-scat_plot + geom_point(aes(colour=demo_sex)) + theme_ss + 
-  scale_colour_manual(values=colors_emerald_contrast)
+scat_plot + geom_point(aes(color=demo_sex)) + theme_ss + 
+  scale_color_manual(values=colors_emerald_contrast[1:2])
 
 # split grids by sex
-scat_plot + geom_point(aes(colour=demo_sex)) + theme_ss + 
-  scale_colour_manual(values=colors_emerald_contrast)+ facet_grid(demo_sex ~ .)
+scat_plot + geom_point(aes(color=demo_sex)) + theme_ss + 
+  # scale_color_manual(values = colors_emerald_contrast[1],colors_emerald_contrast[2])+ 
+  scale_colour_manual(values = c("#14A989","#98B0A8"))+
+  facet_grid(demo_sex ~ .)
+```
+
+### Create animated chart
+Reference: https://github.com/thomasp85/gganimate
+https://www.ggplot2-exts.org/gganimate.html
+```{r}
+library(gganimate)
+library(tidyverse)
+library(ggplot2)
+library(gifski)
+library(png)
+
+dat_csv3 <- read.csv('mock_data_3.csv')
+head(dat_csv3)
+#animate chart
+scat_animate <-  ggplot(dat_csv3, aes(x=turnout_score, y=ev_score, fill=demo_sex, frame = state)) + 
+  geom_point(aes(color=demo_sex)) + theme_ss + 
+  # scale_color_manual(values = colors_emerald_contrast[1],colors_emerald_contrast[2])+ 
+  scale_colour_manual(values = c("#14A989","#98B0A8"))+
+  facet_grid(demo_sex ~ .)
+
+#subset data to a few states so rendering is faster
+# https://stackoverflow.com/questions/18165578/subset-and-ggplot2
+ggplot(subset(dat_csv3, state %in% c("FL","NV","AZ")), aes(x=turnout_score, y=ev_score, fill=demo_sex))+
+  geom_point(aes(color=demo_sex)) + theme_ss+
+  #customize colors
+  scale_color_manual(values=c("#14A989","#2F4858"))+
+  #labels
+  labs(title = 'Early Vote Score vs Turnout Score by Gender',
+       y = "Early Vote Score",
+       x = "Turnout Score")+
+  #format axis labels
+  scale_x_continuous(labels = scales::percent_format(accuracy=1))+
+  scale_y_continuous(labels = scales::percent_format(accuracy=1))+
+  #split by sex
+  facet_wrap(~demo_sex)+
+  theme(legend.position="none")+
+  #gganimate
+  transition_states(states = state,transition_length = 2)+
+  ease_aes('linear')
 ```
 
 ### add labels that repel each other(don't overlap) HAven't test yet
@@ -224,3 +269,120 @@ gg + geom_text_repel(aes(label=large_county), size=2, data=midwest_sub) + labs(s
 
 gg + geom_label_repel(aes(label=large_county), size=2, data=midwest_sub) + labs(subtitle="With ggrepel::geom_label_repel") + theme(legend.position = "None")   # label
 ```
+
+## Create stacked area chart
+reference for basic area chart: https://www.oreilly.com/library/view/r-graphics-cookbook/9781449363086/ch04.html
+reference for stacked bar chart: https://www.r-graph-gallery.com/136-stacked-area-chart/
+raw data: https://docs.google.com/spreadsheets/d/1_QFlhKbwKzX9B1ubKHL72A8qg2yZzNXAffoeqyILwHE/edit#gid=429744481
+
+###first create the base table
+checking what format the data should be in (ie mult columns adding up to a total or multiple rows)
+```{r}
+# DATA - this creates multiple rows per year, with the variable they're stacking by uniq on each row
+set.seed(345)
+Sector <- rep(c("S01","S02","S03","S04","S05","S06","S07"),times=7)
+Year <- as.numeric(rep(c("1950","1960","1970","1980","1990","2000","2010"),each=7))
+Value <- runif(49, 10, 100)
+data <- data.frame(Sector,Year,Value)
+data
+```
+
+```{r}
+# create dataframe w/ test financial data - for non-stacked area chart
+df_money <- data.frame(Year = c(2015,2016,2017,2018),
+                       total_VG = c(236745, 415765, 585809, 586902),
+                       pct_account)
+df_money
+ggplot(df_money, aes(x=Year, y=total_VG)) + geom_area(color = colors_emerald_contrast[1],
+                                                      fill=colors_emerald_contrast[1],
+                                                      alpha = .2) + 
+  theme_ss+
+  labs(title = "Vanguard Accounts Over Time", y = "Total $")+
+  scale_y_continuous(labels = scales::dollar_format())
+```
+## Import vertical account data (dummy data) for stacked area chart
+```{r}
+df_vg_vert <- read_csv('VG_Summary_Vertical.csv')
+df_vg_vert
+
+ggplot(df_vg_vert, aes(x=Year, y=Total, fill = Account)) + 
+  geom_area(alpha = .75) +
+  scale_fill_manual(values = c(colors_ss[1], colors_ss[17], "#FFA17A", colors_ss[16], "#C8FCEA", colors_ss[13]))+
+  theme_ss+
+  labs(title = "Vanguard Accounts Over Time", y = "Total $")+
+  scale_y_continuous(limits = c(NA, 750000), breaks = c(0, 250000,500000,750000), labels = scales::dollar_format())
+
+ggsave('Vanguard Accounts Over Time.png', height = 4, width=7)
+```
+
+###split by category not account type
+```{r}
+# --need to group by Category first
+by_cat <-   df_vg_vert %>%
+  group_by(Year, Category) %>% 
+  summarise(Total = sum(Total))
+
+couchsurfer <- 278000
+roomie_mcol <- 389000
+roomie_hcol <- 539000
+studio_mcol <- 578000
+roomie_mcol_health <- 689000
+color_hline <- c("#7A8897")
+color_text <- c("#7A8897")
+hline_xint <- 2015.3
+text_size <- 3.5
+
+
+vg <- ggplot(by_cat, aes(x=Year, y=Total, fill = Category)) + 
+  geom_area(alpha = .75) +
+  scale_fill_manual(values = c(colors_ss[1], colors_ss[17], "#FFA17A", colors_ss[13]))+
+  theme_ss
+
+vg + labs(title = "Vanguard Accounts Over Time - Category", y = "Total $")+
+  scale_y_continuous(limits = c(NA, 750000), breaks = c(0, 250000,500000,750000), 
+                     labels = scales::dollar_format())+
+  # geom_hline(yintercept = couchsurfer, color = color_hline[1], alpha = .7, linetype=4, fullrange)+
+  # geom_text(x = hline_xint, y = couchsurfer, label = "Couchsurfer\n", 
+            # color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  # geom_hline(yintercept = roomie_mcol, color = color_hline, alpha = .7, linetype=4)+
+  # geom_text(x = hline_xint, y = roomie_mcol, label = "Roomie MCOL\n",
+  #           color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  # geom_hline(yintercept = roomie_hcol, color = color_hline, alpha = .7, linetype=4)+
+  # geom_text(x = hline_xint, y = roomie_hcol, label = "Roomie HCOl\n",
+  #           color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  # geom_hline(yintercept = studio_mcol, color = color_hline)+
+  # geom_text(x = hline_xint, y = studio_mcol, nudge_y = 1500, label = "Studio MCOL",
+            # color = "grey", family = "Caviar Dreams")+
+  # geom_hline(yintercept = roomie_mcol_health, color = color_hline, alpha = .7, linetype=4)+
+# testing geom_segment instead of geom_hline since geom_hline extends past x-axis min/max
+  geom_segment(aes(x=2015, xend = 2018, y=couchsurfer, yend = couchsurfer),
+               color = color_hline, alpha = .6, linetype=4, size = .23)+
+  geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol, yend = roomie_mcol),
+               color = color_hline, alpha = .6, linetype=4, size = .23)+
+  geom_segment(aes(x=2015, xend = 2018, y=roomie_hcol, yend = roomie_hcol),
+               color = color_hline, alpha = .6, linetype=4, size = .23)+
+  geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol_health, yend = roomie_mcol_health),
+               color = color_hline, alpha = .6, linetype=4, size = .23)
+  # geom_text(x = hline_xint, y = roomie_mcol_health, label = "Roomie MCOL\nHigh Healthcare",
+  #           color = color_text[1], family = "Caviar Dreams", size = text_size)
+
+ggsave('Vanguard Accounts Over Time - Category.png', height = 4, width=7)
+```
+
+## create proportional area chart with %
+reference: https://stackoverflow.com/questions/27134516/summarizing-by-subgroup-percentage-in-r
+```{r}
+# add a pct category
+by_cat <- by_cat %>% mutate(percent = Total/sum(Total))
+
+vg <- ggplot(by_cat, aes(x=Year, y=percent, fill = Category)) + 
+  geom_area(alpha = .75) +
+  scale_fill_manual(values = c(colors_ss[1], colors_ss[17], "#FFA17A", colors_ss[13]))+
+  theme_ss
+
+vg + labs(title = "Vanguard Accounts Over Time - Percentage", y = element_blank(), x = element_blank())+
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1))
+
+ggsave('Vanguard Accounts Over Time - Percentage.png', height = 4, width=7)
+```
+
