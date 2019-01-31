@@ -41,6 +41,7 @@ apply(dat,2,max)
 #mean(dat$total_bill, dat$tip) # doesn't work
 #https://stackoverflow.com/questions/30941504/calculate-mean-for-multiple-columns-in-data-frame
 #this auto-detects which columns are numeric, then gets the value for each
+
 print("Min")
 sapply(Filter(is.numeric, dat), min)
 print("Average")
@@ -60,6 +61,48 @@ unique(dat$location)
 
 Next Step: Connect to Vertica and try doing the sapply min/max on real data
 verify that there are no data type issues
+
+```{r}
+options(scipen=999)
+dscc_scores_nv <- dbGetQuery(vertica, 
+           'select personid, state_code
+              ,support_score
+              ,turnout_score
+              ,gotv_score_bl
+              ,earlyvote_score
+              ,votebymail_score
+           from dscc_scores_2018.dscc_all_scores_2018 
+           where state_code = \'NV\';')
+
+head(dscc_scores_nv)
+
+#this will get min/max/avg for all numeric columns in a dataset
+# na.rm = TRUE removes nulls from the results
+print("Min")
+sapply(Filter(is.numeric, dscc_scores_nv), min, na.rm = TRUE)
+print("Average")
+sapply(Filter(is.numeric, dscc_scores_nv), mean, na.rm = TRUE)
+print("Max")
+sapply(Filter(is.numeric, dscc_scores_nv), max, na.rm = TRUE)
+
+#get counts of null values
+sum(is.na(dscc_scores_nv$support_score))
+```
+
+#figure this out for the columns throwing NA above
+```{r}
+#create true/false vector of numeric columns
+nums <- unlist(lapply(dscc_scores_nv, is.numeric))  
+nums[1]
+#create new df that consist of only numeric columns
+dscc_scores_nv_num <- dscc_scores_nv[ , nums]
+dscc_scores_nv_num
+
+#get summary data off of new df
+lapply(dscc_scores_nv_num, max)
+
+```
+
 
 Next step: Graphical Analysis QC
 ex: score distribution

@@ -9,6 +9,8 @@ output: html_notebook
 dat_2way <- data.frame(
   level = factor(c("NV","AZ","NY","HI","WV","Female","Male")),
   Dem = c(.531,.512,.723,.825,.32,.62,.43))
+
+dat_2way
 ```
 
 ### Modify the Dataframe by adding a column with all values set manually

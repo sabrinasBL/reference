@@ -36,14 +36,16 @@ colors_ss <- c(
                #black 15
                '#000000',
               #twisted spot - dark blue, lavender, dark lavender. 16-18
-              '#2E38A8','#F4ECFF','#797394')
+              '#fil','#F4ECFF','#797394')
 theme_ss <- theme_minimal()+
-  #other text family options: mono, Helvetica, Futura (no), Geneva, Gill Sans Light (not free), Lucida Grande, 
+  #other text family options: mono, Helvetica, Futura (no), Geneva, Gill Sans Light (not free), Lucida Grande
+  # hipstery Caviar Dreams
+  # Krub
   # Menlo --has some serifs, kind of typewritery - do not use for primary
   # Monaco
   # Skia --good for hobbity, but smaller --need to increase font sizes
   #Including color here applies to the title and axis titles but not the tick mark axis labels 
-  theme(text = element_text(family = 'Caviar Dreams', size = 10, color=colors_ss[5]),
+  theme(text = element_text(family = 'Krub', size = 10, color=colors_ss[5]),
         # base_family = 'Skia', #doesn't work
         #  base_family = getOption("bayesplot.base_family", "Skia")) #doesn't work
         axis.line = element_blank(), 

@@ -211,13 +211,15 @@ scat_plot + geom_point(color=colors_ss[1]) + theme_ss
 
 # make dots different colors based on gender
 scat_plot + geom_point(aes(color=demo_sex)) + theme_ss + 
-  scale_color_manual(values=colors_emerald_contrast[1:2])
+  scale_color_manual(values=c(colors_emerald_contrast[1:2]))
 
 # split grids by sex
 scat_plot + geom_point(aes(color=demo_sex)) + theme_ss + 
   # scale_color_manual(values = colors_emerald_contrast[1],colors_emerald_contrast[2])+ 
   scale_colour_manual(values = c("#14A989","#98B0A8"))+
   facet_grid(demo_sex ~ .)
+
+colors_emerald_contrast
 ```
 
 ### Create animated chart
@@ -341,33 +343,83 @@ vg <- ggplot(by_cat, aes(x=Year, y=Total, fill = Category)) +
 vg + labs(title = "Vanguard Accounts Over Time - Category", y = "Total $")+
   scale_y_continuous(limits = c(NA, 750000), breaks = c(0, 250000,500000,750000), 
                      labels = scales::dollar_format())+
-  # geom_hline(yintercept = couchsurfer, color = color_hline[1], alpha = .7, linetype=4, fullrange)+
-  # geom_text(x = hline_xint, y = couchsurfer, label = "Couchsurfer\n", 
-            # color = color_text[1], family = "Caviar Dreams", size = text_size)+
-  # geom_hline(yintercept = roomie_mcol, color = color_hline, alpha = .7, linetype=4)+
-  # geom_text(x = hline_xint, y = roomie_mcol, label = "Roomie MCOL\n",
-  #           color = color_text[1], family = "Caviar Dreams", size = text_size)+
-  # geom_hline(yintercept = roomie_hcol, color = color_hline, alpha = .7, linetype=4)+
-  # geom_text(x = hline_xint, y = roomie_hcol, label = "Roomie HCOl\n",
-  #           color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  geom_hline(yintercept = couchsurfer, color = color_hline[1], alpha = .7, linetype=4, fullrange)+
+  geom_text(x = hline_xint, y = couchsurfer, label = "Couchsurfer\n",
+  color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  geom_hline(yintercept = roomie_mcol, color = color_hline, alpha = .7, linetype=4)+
+  geom_text(x = hline_xint, y = roomie_mcol, label = "Roomie MCOL\n",
+            color = color_text[1], family = "Caviar Dreams", size = text_size)+
+  geom_hline(yintercept = roomie_hcol, color = color_hline, alpha = .7, linetype=4)+
+  geom_text(x = hline_xint, y = roomie_hcol, label = "Roomie HCOl\n",
+            color = color_text[1], family = "Caviar Dreams", size = text_size)+
   # geom_hline(yintercept = studio_mcol, color = color_hline)+
   # geom_text(x = hline_xint, y = studio_mcol, nudge_y = 1500, label = "Studio MCOL",
-            # color = "grey", family = "Caviar Dreams")+
-  # geom_hline(yintercept = roomie_mcol_health, color = color_hline, alpha = .7, linetype=4)+
+  # color = "grey", family = "Caviar Dreams")+
+  geom_hline(yintercept = roomie_mcol_health, color = color_hline, alpha = .7, linetype=4)+
+  geom_text(x = hline_xint, y = roomie_mcol_health, label = "Roomie MCOL\nHigh Healthcare",
+            color = color_text[1], family = "Caviar Dreams", size = text_size)
 # testing geom_segment instead of geom_hline since geom_hline extends past x-axis min/max
-  geom_segment(aes(x=2015, xend = 2018, y=couchsurfer, yend = couchsurfer),
-               color = color_hline, alpha = .6, linetype=4, size = .23)+
-  geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol, yend = roomie_mcol),
-               color = color_hline, alpha = .6, linetype=4, size = .23)+
-  geom_segment(aes(x=2015, xend = 2018, y=roomie_hcol, yend = roomie_hcol),
-               color = color_hline, alpha = .6, linetype=4, size = .23)+
-  geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol_health, yend = roomie_mcol_health),
-               color = color_hline, alpha = .6, linetype=4, size = .23)
-  # geom_text(x = hline_xint, y = roomie_mcol_health, label = "Roomie MCOL\nHigh Healthcare",
-  #           color = color_text[1], family = "Caviar Dreams", size = text_size)
+  # geom_segment(aes(x=2015, xend = 2018, y=couchsurfer, yend = couchsurfer),
+  #              color = color_hline, alpha = .6, linetype=4, size = .23)+
+  # geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol, yend = roomie_mcol),
+  #              color = color_hline, alpha = .6, linetype=4, size = .23)+
+  # geom_segment(aes(x=2015, xend = 2018, y=roomie_hcol, yend = roomie_hcol),
+  #              color = color_hline, alpha = .6, linetype=4, size = .23)+
+  # geom_segment(aes(x=2015, xend = 2018, y=roomie_mcol_health, yend = roomie_mcol_health),
+  #              color = color_hline, alpha = .6, linetype=4, size = .23)
 
 ggsave('Vanguard Accounts Over Time - Category.png', height = 4, width=7)
 ```
+
+## create column charts w/ outlines/dark fill/light fill
+things to practice:
+set the thickness of an outline based on a category: https://stackoverflow.com/questions/45153939/r-is-it-possible-to-render-more-precise-outline-weights-in-ggplot2
+change the alpha based on a category
+change the fill/label/width/color
+```{r}
+ggplot()+
+  geom_col(data=full_toplines_pvi_new, aes(x = reorder(seat,pvi), y = 100*value,
+                                            fill = winner,
+                                           # alpha = 5,
+                                            # show.legend = FALSE,
+                                            label = seat, width = .8),
+           alpha = .8)+
+  scale_fill_manual(values = c(bluelabs_colors[5], bluelabs_colors[5],bluelabs_colors[7], bluelabs_colors[7]),
+                    name = '', guide = 'none')+
+  geom_col(data=full_toplines_pvi_new, aes(x = reorder(seat, pvi), y = `2012_margin`*100,
+                                  fill =  winner12,
+                                  width = .6,
+                                  color=NA),
+           alpha = .5,)+
+  geom_col(data=full_toplines_pvi_new, aes(x = reorder(seat, pvi), y = pvi*100, 
+                                           fill = NA, 
+                                           linetype = target_lab,
+                                           #set the thickness of the outline on whether a state is a DSCC target
+                                           #still need to manually set the thickness of the line below using scale_size_manual
+                                           size = target_lab,
+                                           color=party_lean))+
+  scale_color_manual(values=c("Republican"=bluelabs_colors[7],
+                              "Democratic"=bluelabs_colors[5]),
+                     name = '', guide = 'none')+
+  #make target states solid line, non-target states dotted
+  scale_linetype_manual(values=c("dotted", "solid"))+
+  #set the 
+  scale_size_manual(values = c(1.1, 1.3))+
+  geom_text(size = 2, alpha = 1)+
+  theme_bluelabs+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.y = element_blank())+
+  labs(y = 'Performance Relative to Partisanship & 2018 Dem Margin\n ',
+       x = element_blank(),
+       title = '2018 Democratic Candidate Margin Relative to 2012')+
+  # scale_alpha_discrete(range = c(.3,1,.3,1), name = '')+
+  geom_hline(yintercept = 0, linetype = 'dashed')+
+  # don't show legend for democratic/republican PVI outline
+  guides(fill = FALSE, alpha = FALSE, linetype = FALSE, size = FALSE)+
+  ylim(-50,50)
+```
+
 
 ## create proportional area chart with %
 reference: https://stackoverflow.com/questions/27134516/summarizing-by-subgroup-percentage-in-r
