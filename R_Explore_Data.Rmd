@@ -57,6 +57,8 @@ unique(dat$time)
 unique(dat$location)
 ##Next Step: how to get unique values of every column that is non-numeric in 1 step?
 ##Next Step: how to do a faster 
+
+summarise(dat)
 ```
 
 Next Step: Connect to Vertica and try doing the sapply min/max on real data
