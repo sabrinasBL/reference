@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<!-- CREATING A FORM FRONT-END 
+enclose everything inside of 1 form tag - container tag
+2 important attributes
+action: where to send the data
+action="/my-form0/"
+method: what type of http request to send (get or post)
+method="post" --adding to a db, like entering data into a signup form
+method="get" - --not adding anything to a db, just getting data, like google search
+
+input tag goes within form tag
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+name tag adds query string
+-->
+
+<!-- method defaults to get? -->
+<!-- <form action="http://wikipedia.com" method="get"> -->
+<form>
+	<!-- label tag: place input tag within label tag -->
+	<label>
+		Username: 
+		<input type="text" placeholder="username" name="username">
+	</label>
+	<input type="date" name="">
+	<input type="email" name="">
+	<label>
+		Password:
+		<input type="password" placeholder="password" name="password">
+	</label>
+	<input type="" name="">
+	<input type="submit" name="">
+	<!-- <button>Submit</button> -->
+</form>
+
+<!-- alternate syntax for labels -->
+<form>
+	<!-- label tag: not nested, need for/id attributes -->
+	<label for="username">Username:</label> 
+	<input id="username" type="text" placeholder="username" name="username">
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" name="password">
+	<!-- <button>Submit</button> -->
+</form>
+
+
+
+<form>
+	<label for="username">Username:</label> 
+<!-- simple validations: add required if field needs to be non-blank -->
+	<input id="username" type="text" placeholder="username" name="username" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" name="password">
+	<label for="email">Email:</label> 
+<!-- simple validations: make sure email entry is email format
+all you need to do is put type email and keep required attribute -->
+	<input id="email" type="email" placeholder="email" name="email" required>
+	<input type="submit" name="">
+</form>
+
+<p>Cats or dogs biatch</p>
+
+<!-- to make people only able to choose 1 button, assign the same name to both
+this applies to radio buttons -->
+
+<form>
+	<label for="dogs">Dogs: </label>
+	<!-- the value tag here changes what shows up in query string -->
+	<input id="dogs" type="radio" name="petChoice" value="DOG">
+	<label for="cats">Cats:</label>
+	<input id="cats" type="radio" name="petChoice"value="CAT">
+	<!-- <input type="checkbox" name=""> -->
+<!-- if button is at end of form, it will submit the same way a submit input tag will -->
+
+<p>What's your favorite color?</p>
+
+<!-- adding name to the select tag includes it in query string
+take text directly from the option tag selected in form -->
+<select name="color">
+	<option>Red</option>
+	<option>Yellow</option>
+	<option>Pink</option>
+</select>
+
+<p>What's your current mood?</p>
+
+<!-- adding name to the select tag includes it in query string
+adding value to each option tag sends the value to query string -->
+<select name="mood">
+	<option value="happy">:)</option>
+	<option value="neutral">:|</option>
+	<option value="sad">:(</option>
+</select>
+
+<p></p>
+<!-- this doesn't allow for a huge amount of text -->
+<input type="text" name="">
+<!-- to have a bigger text field use textarea -->
+<p></p>
+<textarea rows="10" cols="50" name="paragraph"></textarea>
+
+	<button>Go!</button>
+</form>
+
+</body>
+</html>
