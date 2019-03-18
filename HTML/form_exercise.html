@@ -16,6 +16,14 @@ email password 5-10
 birthday (select buttons)
 I agree to terms and conditions
 submit button
+
+notes on password validation:
+minlength isn't supported on all browsers
+pattern is supported on newer browsers only and not safari
+better to do pw validation in JS ultimately
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password
+about pattern tag
+https://www.w3schools.com/tags/att_input_pattern.asp
  -->
 
 
@@ -40,6 +48,32 @@ submit button
  -->	<!-- setting min/max pw length: newer method -->
  	<input type="password" name="password" pattern=".{5,10}" required> 
 	<p></p>
+	<!-- correct way of doing this, with a fieldset and legend -->
+	<fieldset>
+		<legend>Birthday: </legend>
+		<label id="month">Month: </label>
+		<select id="month" name="month">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+
+		<label id="day">Day: </label>
+		<select id="day" name="day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+
+		<label id="year">Year: </label>
+		<select id="year" name="year">
+			<option>1900</option>
+			<option>1901</option>
+			<option>1902</option>
+		</select>
+	</fieldset>
+	<!-- improper method (even though it works) -->
+	<!--
 	<label id="bday">Birthdate: </label>
 	<select id="bday" name="month">
 		<option>Jan</option>
@@ -55,7 +89,7 @@ submit button
 		<option>1900</option>
 		<option>1901</option>
 		<option>1902</option>
-	</select>
+	</select> -->
 	<p>I agree to terms and conditions</p>
 	<input type="submit" name="">
 </form>
