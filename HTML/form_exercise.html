@@ -28,27 +28,60 @@ https://www.w3schools.com/tags/att_input_pattern.asp
 
 
 <form>
+	<!-- add one line w/ first and last inputs -->
 	<label for="fname">First Name: </label> 
-	<input id="fname" type="text" name="fname" required>
+	<input id="fname" type="text" name="fname" placeholder="Juanita" required>
 	<label for="lname">Last Name: </label> 
-	<input id="lname" type="text" name="lname" required>
-	<p></p>
-	<label for="male">Male: </label>
-	<!-- the value tag here changes what shows up in query string -->
-	<input id="male" type="radio" name="gender" value="MALE">
-	<label for="female">Female: </label>
-	<input id="female" type="radio" name="gender" value="FEMALE"><label for="other">Other: </label>
-	<input id="other" type="radio" name="gender" value="other">
-	<p></p>
-	<label for="email">Email: </label>
-	<input id="email" type="email" name="email" value="email" required>
-	<label for="password">Password: </label>
-	<!-- setting min/max pw length - deprecated -->
-<!-- 	<input type="password" name="password" minlength="5" maxlength="10" required>
- -->	<!-- setting min/max pw length: newer method -->
- 	<input type="password" name="password" pattern=".{5,10}" required> 
-	<p></p>
-	<!-- correct way of doing this, with a fieldset and legend -->
+	<input id="lname" type="text" name="lname" placeholder="Suarez" required>
+	
+	<!-- put gender options on new line, in div tags, with labels for each -->
+	<div>
+		<label for="male">Male: </label>
+		<!-- the value tag here changes what shows up in query string -->
+		<input id="male" type="radio" name="gender" value="MALE">
+		<label for="female">Female: </label>
+		<input id="female" type="radio" name="gender" value="FEMALE"><label for="other">Other: </label>
+		<input id="other" type="radio" name="gender" value="other">
+	</div>
+
+	<div>
+		<label for="email">Email: </label>
+		<input id="email" type="email" name="email" value="email" required>
+		<label for="password">Password: </label>
+		<!-- setting min/max pw length - deprecated -->
+	<!-- 	<input type="password" name="password" minlength="5" maxlength="10" required>
+	 -->	<!-- setting min/max pw length: newer method -->
+	 	<input type="password" name="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters"> 
+	</div>
+
+	<!-- the way the instructor does it -->
+	<div>
+		<label>
+			Birthday:
+			<select name="day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+			<select month="month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+
+			<select month="year">
+				<option>Year</option>
+				<option>1900</option>
+				<option>1901</option>
+				<option>1902</option>
+			</select>
+		</label>
+	</div>
+
+	<!-- one correct way of doing this, with a fieldset and legend -->
 	<fieldset>
 		<legend>Birthday: </legend>
 		<label id="month">Month: </label>
@@ -90,8 +123,34 @@ https://www.w3schools.com/tags/att_input_pattern.asp
 		<option>1901</option>
 		<option>1902</option>
 	</select> -->
-	<p>I agree to terms and conditions</p>
-	<input type="submit" name="">
+	<!-- or you can use classes instead of id? -->
+	<div>
+		<label class="bday">Birthdate: </label>
+		<select class="bday" name="month">
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+		</select>
+		<select class="bday" name="day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select class="bday" name="year">
+			<option>1900</option>
+			<option>1901</option>
+			<option>1902</option>
+		</select>
+	</div>
+
+	<!-- add checkbox for terms and conditions agreement -->
+	<div>
+		<label for="terms">I agree to the terms and conditions</label>
+		<input id="terms" type="checkbox" name="terms" required>
+	</div>
+	
+	<!-- add submit button -->
+	<input type="submit" name="submit">
 </form>
 
 </body>
