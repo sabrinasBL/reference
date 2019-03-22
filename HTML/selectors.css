@@ -1,0 +1,63 @@
+element*/
+li	{
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/* https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048 */
+
+/*Star*/
+/* this select EVERY ELEMENT on page*/
+/*use with caution*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*descendant selector*/
+/* takes two or more selectors and chains them together */
+/* ex below selects all links that are descendent of a list item */
+
+li a {
+	color: red;
+}
+
+/*adjacent selector*/
+/* select elements that come after another element (not nested, but sibling) */
+/* selects elements on same indent level only */
+/* the + makes it sibling, remove it and it meakes it a descendent selection */
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*attribute selector*/
+/* select everything with a certain attribute */
+
+a[href="google.com"] {
+	background: blue;
+}
+
+input[type="checkbox"] {
+	background: orange;
+}
+
+/*nth of type */
+/*selects every nth item of a certain type*/
+/*does not repeat*/
+/*below example only turns the 3rd element purple*/
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+/*this example will select the 3rd of every list*/
+/*note: since does not repeat, doesn't also highlight the 6th*/
+li:nth-of-type(3) {
+	background: purple;
+}

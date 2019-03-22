@@ -1,0 +1,15 @@
+body {
+	background: linen;
+}
+li {
+	border: 2px solid red;
+}
+/*for an invented not built in tag, but hashtag in front*/
+#special{
+	background: yellow;
+}
+/*for class put . first*/
+/*text decoration*/
+.completed {
+	text-decoration: line-through;
+}

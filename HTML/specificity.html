@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<!-- anything nested under an element will inherit the properties of parent tag -->
+	<!-- when inspecting element, you will see under Style tab, what properties are inherited from where -->
+	<!-- if something was overwritten (like font color for ul overriding the body font color of ed), you will see the body font color crossed out -->
+	<!-- the more specific element property will be chosen -->
+	<!-- if you deselect one of the elements in inspection, it will revert to the one level up element -->
+	<style type="text/css">
+		/*ul {
+			color: purple;
+		}*/
+		body {
+			color: red;
+		}
+		ul {
+			color: blue;
+		}
+		li {
+			color: orange;
+		}
+		.highlight {
+			color: yellow;
+		}
+		#special {
+			color: pink;
+		}
+		/* order: inline style > id > class > li > ul > body; */
+		/* Rules: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+		/*. Calculator to tell you what style will win: https://specificity.keegan.st/ */
+		/*. Type selectors (lowest)*/
+		/*Class, Attribute, and Pseudo-class selectors (middle)*/
+		/*ID selectors (most specific*/
+	</style>
+</head>
+<body>
+
+	<p>Hello!!!</p>
+
+	<ul>
+		<li class="highlight" id="special">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+
+</body>
+</html>
